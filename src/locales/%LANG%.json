@@ -1,0 +1,4028 @@
+{
+  "it": {
+    "404Page": {
+      "button": "Vai alla pagina principale",
+      "message": "La pagina che stai cercando non esiste"
+    },
+    "actions": {
+      "callCaregiver": "Chiama Caregiver",
+      "newReport": "Nuovo Report",
+      "resolveAlert": "Risolvi alert",
+      "sendMessage": "Messaggia"
+    },
+    "activateProfile": {
+      "btn": "Attiva profilo",
+      "description": "Per completare la registrazione, inserisci una password sicura e seleziona le caselle dei consensi.",
+      "descriptionSuccess": "Ricordati di annotare la password appena inserita, ti verrà chiesta per accedere alla tua area riservata di Medicilio",
+      "sendNewMailSuccess": {
+        "btn": "Torna alla pagina di accesso",
+        "description": "Controlla la tua casella e-mail e completa l’attivazione del profilo. Se non hai ricevuto l’e-mail, controlla nella cartella di posta indesiderata.",
+        "title": "Nuovo link di attivazione profilo inviato con successo"
+      },
+      "title": "Attiva il tuo profilo",
+      "titleSuccess": "Profilo attivato con successo!",
+      "tokenExpired": {
+        "button": "Richiedi nuovo link di attivazione",
+        "description": "Clicca sul bottone “richiedi nuovo link di attivazione” per ricevere una nuova email con un link valido per attivare il tuo profilo.",
+        "title": "Link di attivazione scaduto"
+      },
+      "userHasPassword": {
+        "description": "Hai già impostato una password. Accedi utilizzando la password che hai precedentemente configurato.",
+        "title": "Profilo già attivato"
+      }
+    },
+    "addressNote": {
+      "btnEdit": "Modifica",
+      "btnSave": "Applica",
+      "placeholder": "Es. citofonare al Sig. Rossi",
+      "title": "Scrivi una nota al dottore"
+    },
+    "admin": {
+      "create": {
+        "title": "Crea nuovo"
+      },
+      "edit": {
+        "title": "Modifica"
+      }
+    },
+    "alert": {
+      "doctorReportCreate": {
+        "hasFinishedTeleconsultation": "Video consulto terminato. Ora puoi scrivere ed inviare il referto",
+        "hasStartedTeleconsultation": "Quando il video consulto è finito, clicca sul pulsante \"Termina visita\". Puoi iniziare a scrivere il referto anche durante il video consulto, ma <strong>potrai firmarlo solo dopo aver terminato la visita.</strong> ",
+        "patientNotShown": "Il paziente non si è presentato al video consulto, quindi non dovrai scrivere il referto",
+        "teleconsultation": "Ricarica la pagina per vedere il tempo rimanente per la visita. Il pulsante \"collegati\" diventerà attivo 10 minuti prima della visita, permettendoti di accedere al video consulto.",
+        "teleconsultationMinutes": "Ricarica la pagina per vedere il tempo rimanente per la visita. Il pulsante \"collegati\" diventerà attivo 10 minuti prima della visita, permettendoti di accedere al video consulto. <0>La visita inizierà tra {{minutes}} minuti.</0>"
+      }
+    },
+    "alertShow": {
+      "notPresentOnNextMeasurement": {
+        "description": "Il paziente ha ripetuto la misurazione e i valori sono rientrati nella norma. Devi comunque risolvere questo alert.",
+        "title": "Nessun alert rilevato nella misurazione successiva."
+      }
+    },
+    "alerts": {
+      "buttons": {
+        "prescriptionSection": {
+          "uploadButton": "Carica prescrizione"
+        }
+      },
+      "prescriptionSection": {
+        "body": "Carica la prescrizione per consentire al medico di esaminarla prima della visita. <0>Se hai bisogno della prescrizione, chiamaci.</0>",
+        "title": "Prescrizione medica necessaria"
+      }
+    },
+    "bookOnline": "Prenota online",
+    "booking": {
+      "bookingSuccess": {
+        "btn": "Prenota un altro esame",
+        "description": "Grazie per aver prenotato con Medicilio.",
+        "header": "L’appuntamento è stato prenotato con successo!",
+        "prescription": {
+          "button": "Ho bisogno di una prescrizione",
+          "description": {
+            "onSite": "Visualizza la prenotazione e <0> carica la prescrizione medica</0> prima di sostenere l’esame, oppure possiamo fornirtela noi tramite consulto online.",
+            "online": "La tua prenotazione è confermata! Visualizza la prenotazione e <0> carica la prescrizione medica </0> prima di sostenere l’esame, oppure possiamo fornirtela noi tramite consulto online."
+          },
+          "header": {
+            "onSite": "Appuntamento prenotato, ricorda la prescrizione medica!",
+            "online": "Pagamento effettuato, ricorda la prescrizione medica!"
+          }
+        },
+        "viewBookingDetails": "Visualizza prenotazione"
+      },
+      "costSummary": {
+        "examQuantity": "Esami",
+        "examsCost": "Totale",
+        "totalCost": "Costo totale (visita inclusa)",
+        "totalCostText": "Il costo totale include l’uscita del tecnico per effettuare l’esame"
+      },
+      "details": {
+        "action": {
+          "payment": {
+            "cta": "Paga Ora",
+            "error": "E’ intervenuto un errore nel tentativo di generare il pagamento. Ti preghiamo di riprovare.",
+            "info": {
+              "description": "Clicca sul bottone per pagare",
+              "message": {
+                "description": "€ Clicca sul bottone per pagare",
+                "title": "<0>Pagamento in sospeso</0>"
+              },
+              "title": "Pagamento in sospeso €"
+            }
+          },
+          "prescription": {
+            "cta": "Carica prescrizione",
+            "info": {
+              "description": "Carica la prescrizione per consentire al medico di esaminarla prima della visita. Se hai bisogno della prescrizione, chiamaci.",
+              "message": "Carica la prescrizione per consentire al medico di esaminarla prima della visita. Se hai bisogno della prescrizione, chiamaci.",
+              "title": "Prescrizione medica necessaria"
+            }
+          }
+        },
+        "address": {
+          "noteLabel": "Note:",
+          "title": "Indirizzo della prestazione"
+        },
+        "dateTime": {
+          "descriptionConfirmed": "L’esame verrà effettuato nell’intervallo di tempo specificato. L’orario esatto verrà aggiornato la sera prima della visita.",
+          "descriptionConfirmedLocked": "Il professionista ti chiamerà prima di arrivare.",
+          "infinite": "Data e ora saranno definite a breve",
+          "info": "L’orario esatto verrà comunicato tramite e-mail la sera prima della visita.",
+          "prefixHour": "Fascia oraria: ",
+          "startingHour": "Orario visita: "
+        },
+        "downloadAttachment": "<0>Scarica immagini esame {{index}}</0>",
+        "downloadExamImages": "Scarica immagini esame",
+        "downloadExamen": {
+          "description": "Archivio privato e sicuro"
+        },
+        "downloadReport": "Scarica referto",
+        "examen": {
+          "alert": {
+            "paymentCanceled": "Non dovrai pagare alcun importo, in quanto la prestazione è stata annullata",
+            "paymentConfirmed": "Il pagamento si effettuerà tramite carta di credito al termine della prestazione"
+          },
+          "costInfo": "Costo di uscita",
+          "discount": "Sconto",
+          "downloadInvoice": {
+            "description": {
+              "external": "La fattura ufficiale verrà trasmessa dal partner.",
+              "internal": "Per la fattura ufficiale contatta il nostro centralino."
+            },
+            "title": "Scarica fattura"
+          },
+          "isCanceled": "Rimborsato",
+          "isPaid": "Pagato",
+          "isPending": "In sospeso",
+          "paymentStatus": "Stato:",
+          "paymentType": {
+            "offline": "Offline",
+            "on_site": "Al Professionista",
+            "online": "Online"
+          },
+          "paymentTypeLabel": "Pagamento:",
+          "subtotal": "Sottototale",
+          "titleCanceled": "Esami annullati",
+          "titleGeneral": "Esami",
+          "titleGeneralPro": "Esami",
+          "total": "Totale"
+        },
+        "headerHelpCall": "Vuoi apportare delle modifiche?",
+        "multivisit": {
+          "paymentDescription": "Clicca sul bottone “paga ora” per pagare.",
+          "paymentTitle": "<strong>Pagamento in sospeso di {{price}}</strong> €"
+        },
+        "patient": {
+          "confirm": "Confermare",
+          "dateOfBirthLabel": "Data di nascita:",
+          "emailLabel": "E-Mail:",
+          "firstname": "Nome:",
+          "genderLabel": "Genere:",
+          "lastname": "Cognome:",
+          "phoneLabel": "Tel.:",
+          "taxcodeLabel": "C.F.:",
+          "title": "Dati del paziente",
+          "update": "Aggiorna"
+        },
+        "payment": {
+          "onsite": "Pagamento al professionista il giorno della visita",
+          "options": "Pagamento Online tramite carta di credito, Paypal o bonifico bancario"
+        },
+        "prescription": {
+          "message": "<0> Il caricamento può richiedere fino a due minuti. <1> Ricarica </1> la pagina per continuare. </0>",
+          "notUploaded": "Carica Prescrizione",
+          "upload": {
+            "description": "Clicca o trascina la prescrizione qui per caricarla."
+          },
+          "uploaded": "<0>Prescrizione caricata con successo!</0> Per qualsiasi modifica o problema, scrivi a <1>{{email}}</1>"
+        },
+        "prescriptionInfo": {
+          "description": "Per modifiche o problemi scrivire a <1>{{email}}</1>",
+          "new": {
+            "description": "La prescrizione è stata caricata con successo ed è in attesa di approvazione da parte del medico.<br /><br /> Puoi sostituire la prescrizione o aggiungere altri allegati se necessario."
+          },
+          "title": "Prescrizione medica caricata!"
+        },
+        "report-cross-sell": {
+          "blood-title": "Ti serve uno specialista per vedere il referto?",
+          "cardio-button": "Chiamaci per prenotare",
+          "cardio-description": "Vorresti un secondo parere in tempi rapidi? Prenota un videoconsulto con un nostro medico/specialista",
+          "cardio-title": "Ti serve uno specialista per vedere il referto?",
+          "carol-description": "Prenota un appuntamento sull’app Carol, selezionando il problema “Discussione referto”.",
+          "carol-title": "Vuoi confrontarti con il tuo medico Carol?",
+          "eco-button": "Chiamaci per prenotare",
+          "eco-description": "Vorresti un secondo parere in tempi rapidi? Prenota un videoconsulto con un nostro medico/specialista",
+          "eco-title": "Ti serve uno specialista per vedere il referto?",
+          "hsr-button": "Chiamaci per prenotare",
+          "hsr-description": "Prenota un video consulto con uno specialista dell’Ospedale San Raffaele.",
+          "hsr-title": "Ti serve uno specialista per vedere il referto?",
+          "labo-button": "Chiamaci per prenotare",
+          "labo-description": "Vorresti un secondo parere in tempi rapidi? Prenota un videoconsulto con un nostro medico/specialista",
+          "labo-title": "Ti serve uno specialista per vedere il referto?",
+          "link": {
+            "cardio": "https://www.medicilio.it/booking/telemedicina",
+            "eco": "https://www.medicilio.it/booking/telemedicina",
+            "labo": "https://www.medicilio.it/booking/telemedicina",
+            "orto": "https://www.medicilio.it/booking/telemedicina",
+            "sanRaffaele": "https://ospedalesanraffaele.welcomedicine.it/"
+          },
+          "radio-button": "Chiamaci per prenotare",
+          "radio-description": "Vorresti un secondo parere in tempi rapidi? Prenota un videoconsulto con un nostro medico/specialista",
+          "radio-title": "Ti serve uno specialista per vedere il referto?"
+        },
+        "report": {
+          "header": "Esito esame",
+          "postdicom": {
+            "header": "Immagini",
+            "visualize": "Visualizza su"
+          },
+          "results": {
+            "download": "Scarica",
+            "header": "Referto medico",
+            "visualize": "Visualizza"
+          }
+        },
+        "status": {
+          "canceled": "Prenotazione annullata",
+          "completed": "Prenotazione conclusa",
+          "confirmed": "Prenotazione confermata",
+          "prefixCode": "Riferimento n."
+        },
+        "summary": {
+          "title": "Sommario"
+        },
+        "title": {
+          "canceled": "Visita annullata",
+          "completed": "Visita conclusa",
+          "confirmed": "Visita confermata"
+        },
+        "titleCanceled": "Prenotazione annullata",
+        "titleCompleted": "Prenotazione conclusa",
+        "titleConfirmed": "Prenotazione confermata",
+        "titleNoShowPatient": "Prenotazione annullata",
+        "visualizeAttachment": "<0>Visualizza immagini esame {{index}}</0> <1>Archivio privato e sicuro</1>",
+        "visualizeBooking": "Visualizza appuntamento",
+        "visualizeExamen": "Visualizza Immagini dell’ esame",
+        "visualizeReport": "Visualizza referto"
+      },
+      "list": {
+        "all": "Tutte",
+        "bookingCode": "N. prenotazione",
+        "canceled": "Annullate",
+        "cancelled": "Annullate",
+        "completed": "Concluse",
+        "concluded": "Concluse",
+        "confirmed": "Programmate",
+        "date": "Data",
+        "description": "Clicca 'Visualizza' per vedere i dettagli della prenotazione e scaricare il referto quando disponibile.",
+        "downloadReport": "Scarica Referto",
+        "emptyResults": "Non risultano visite prenotate o in programma. Chiamaci per avere maggiori informazioni in merito al servizio o prer prenotare una visita.",
+        "emptyState": "Non ci sono appuntamenti.",
+        "eta": "Orario",
+        "exams": "Esami",
+        "filter": {
+          "all": "Tutte",
+          "canceled": "Anullate",
+          "completed": "Concluse",
+          "confirmed": "Programmate",
+          "order": "Filtra visite per"
+        },
+        "patient": "Paziente",
+        "reportStatus": "Referto",
+        "scheduled": "Programmate",
+        "status": {
+          "canceled": "Annullata",
+          "completed": "Conclusa",
+          "confirmed": "Programmata",
+          "noPatientShown": "Paziente assente"
+        },
+        "table": {
+          "header": {
+            "bookingCode": "N. prenotazione",
+            "date": "Data visita",
+            "eta": "Orario",
+            "examen": "Esami",
+            "imageLink": "Immagini",
+            "patientName": "Paziente",
+            "reportStatus": "Referto",
+            "status": "Stato"
+          },
+          "item": {
+            "bloodExam": "Esame del Sangue"
+          }
+        },
+        "title": "Appuntamenti e referti",
+        "visitStatus": "Stato visita"
+      },
+      "modal": {
+        "leaveBookingFlow": {
+          "description": "Se esci dal processo di prenotazione, dovrai ricominciare dall'inizio.",
+          "title": "Sei sicuro?"
+        }
+      },
+      "order": {
+        "provider": "Servizio erogato da un nostro partner",
+        "providerName": "Il servizio è offerto da {{name}}"
+      },
+      "paymentFail": {
+        "bookingCode": "Prenotazione n.",
+        "description": "<0>La tua prenotazione è confermata</0>, ma si sono verificati problemi con il pagamento. Visualizza la prenotazione per riprovare o chiama l’assistenza.",
+        "header": "Problema con il pagamento",
+        "helpBtn": "Chiama assistenza",
+        "viewBookingDetails": "Visualizza prenotazione"
+      },
+      "paymentSuccess": {
+        "description": "La tua prenotazione è confermata, grazie per avere scelto Medicilio.Ricordati di caricare la prescrizione medica.",
+        "header": "Pagamento effettuato!",
+        "paymentSuccessNoPrescription": "La tua prenotazione è confermata, grazie per avere scelto Medicilio.",
+        "uploadPrescription": "Carica prescrizione",
+        "viewBookingDetails": "Visualizza prenotazione"
+      },
+      "report": {
+        "status": {
+          "available": "Disponibile",
+          "not_required": "Non necessario",
+          "not_uploaded": "In attesa",
+          "pending": "In sospeso"
+        }
+      },
+      "selectAddressStep": {
+        "header": "Seleziona l’indirizzo"
+      },
+      "step0": {
+        "civicNumberPlaceholder": "Scrivi n° civico",
+        "civicNumberTitle": "Numero civico",
+        "header": "Prenota la tua visita",
+        "locationTitle": "Indirizzo",
+        "messages": {
+          "defaultMessageGuide": "La visita verrà effettuata all’indirizzo indicato",
+          "emailSubscription": {
+            "success": "E-mail aggiunta correttamente. Ti informeremo quando il servizio sarà disponibile."
+          },
+          "invalidAddress": "Non hai ancora indicato l’indirizzo completo di numero civico.  Quando lo farai, potrai continuare il processo di prenotazione.",
+          "notAvailableLoggedIn": "Non offriamo questo servizio nella zona indicata. Inserisci il tuo indirizzo email per ricevere una notifica quando sarà disponibile.",
+          "notAvailableNotLoggedIn": "Non offriamo questo servizio nella zona indicata. Inserisci il tuo indirizzo email per ricevere una notifica quando sarà disponibile.",
+          "success": "<strong>Il servizio è attivo</strong> all’indirizzo indicato!"
+        },
+        "placeholder": "Scrivi ll’indirizzo",
+        "serviceTitle": "Servizio"
+      },
+      "step1": {
+        "FAQLink": "Consulta le nostre FAQ",
+        "FAQs": "Hai dubbi sul processo di prenotazione online?",
+        "costBreakdown": {
+          "quantity": "Quantità: {{number}}",
+          "total": "Totale {{total}} €"
+        },
+        "costInfo": "L’uscita del tecnico e l’installazione degli strumenti ha un costo fisso di <strong>{{price}} €</strong> indipendentemente dal numero di esami prenotati.",
+        "costMessage": {
+          "CARDIO": "<0>I nostri prezzi</0> Il costo per Holter Cardiaco e Pressorio include due visite.<br /> Marca da bollo: <strong>€ 2</strong>",
+          "COVID": "<0>I nostri prezzi</0> Chiamaci per effettuare il test ad un gruppo di persone.",
+          "DERMA": "<0>I nostri prezzi</0> Costo di 1 esame: <strong>€ 50</strong> <br /> Dal secondo esame: <strong>€ 15</strong>",
+          "DOC": "<0>I nostri prezzi</0> Costo di 1 visita medica generica: <strong>€ 150</strong> <br /> Costo di 1 visita medica specialistica: Da <strong>€ 180</strong>",
+          "ECO": "<0>I nostri prezzi</0> Costo di 1 ecografia: <strong>€ 210</strong> <br /> Dalla seconda ecografia: <strong>€ 90</strong> <br/> Costo di 1 ecodoppler: <strong>€ 170</strong><br/>Costo di 1 ecocardiogramma: a partire da <strong>€ 210</strong> <br /> Marca da bollo: <strong>€ 2</strong>",
+          "FISIO": "<0>I nostri prezzi</0> Puoi concordare con il fisioterapista dei pacchetti scontati.",
+          "LABO": "<0>I nostri prezzi</0> Chiamaci per effettuare esami personalizzati.",
+          "NURSE": "<0>I nostri prezzi</0> Costo di 1 esame: <strong>€ 45</strong> <br /> Dal secondo esame: <strong>€ 15</strong>",
+          "OSTEO": "Costo di 1 seduta: <strong> 100 €</strong>",
+          "POLI": "<0>I nostri prezzi</0> Il costo per la Polisonnografia include due visite. <br /> Marca da bollo: <strong>€ 2</strong>",
+          "RADIO": "<0>I nostri prezzi</0> Costo 1 esame a partire da: <strong>€ 150</strong> <br /> Dal secondo esame a partire da: <strong>€ 50</strong> <br /> Marca da bollo: <strong>€ 2</strong>",
+          "SPIRO": "<0>I nostri prezzi</0> Costo di una spirometria incluso referto 70 €. <br /> Marca da bollo: <strong>€ 2</strong>"
+        },
+        "noVariantSelected": "Non hai ancora selezionato alcun servizio.  Quando lo farai, qui troverai il riepilogo.",
+        "technicianCost": "L’uscita del tecnico per effettuare gli esami ha un costo di",
+        "title": "Seleziona l’esame"
+      },
+      "step2": {
+        "addressRequired": "Digitare un indirizzo valido",
+        "callbackSubscription": {
+          "success": "Grazie! Ti chiameremo il prima possibile."
+        },
+        "closeModalButton": "Prova con un altro indirizzo",
+        "dateText": "Visita",
+        "emailSubscription": {
+          "success": "Ti informeremo quando il servizio sarà disponibile."
+        },
+        "emailSubscriptionAleart": {
+          "button": "Voglio essere contattato",
+          "description": "Lascia il tuo nome e numero di telefono, ti contatteremo per aiutarti a trovare una soluzione.",
+          "success": {
+            "description": "Nel frattempo, puoi esplorare altri servizi disponibili nella tua area.",
+            "title": "Ti contatteremo a breve per trovare una soluzione."
+          },
+          "title": "Al momento non ci sono disponibilità per l’esame selezionato."
+        },
+        "messageFisio": "Per prenotare una o più sedute di fisioterapia, ti invitiamo a chiamarci!",
+        "messageHolter": "La seconda visita verrà effettuata dopo 24 ore e nella stessa fascia oraria",
+        "noSlots": "Seleziona una data per vedere le nostre disponibilità.",
+        "slotNotSelected": "Non hai ancora selezionato data e ora dell’appuntamento. Selezionali entrambi per proseguire",
+        "slotSelected": "Hai scelto data e ora del primo appuntamento.",
+        "subscriptionBoxSuccess": "Grazie per avere inserito l'indirizzo mail. Ti informeremo appena avremo date disponibili.",
+        "subscriptionBoxText": "Inserisci il tuo indirizzo email, ti informeremo appena avremo date disponibili.",
+        "subscriptionButton": "Notificami",
+        "subscriptionModalText": "<0>Non offriamo questo servizio nella tua zona</0> Inserisci il tuo indirizzo e-mail per ricevere una notifica appena il servizio sarà disponibile.",
+        "timeHeader": "Seleziona fascia oraria",
+        "timeText": "Seleziona fascia oraria",
+        "title": "Scegli data e ora"
+      },
+      "step2_emailSubscriptionAleart": {
+        "success": {
+          "description": "Nel frattempo, puoi esplorare altri servizi disponibili nella tua area.",
+          "title": "Ti contatteremo a breve per trovare una soluzione."
+        }
+      },
+      "step3": {
+        "addPatient": "Aggiungi paziente",
+        "addPatientError": {
+          "contactButton": "Contatta l’assistenza",
+          "message": "Verifica che i dati siano corretti e riprova, se il problema persiste contatta l’assistenza.",
+          "retryButton": "Riprova",
+          "title": "Errore inserimento paziente"
+        },
+        "bookingForOther": "Per un’altra persona",
+        "bookingForOtherMessage": "Tutte le comunicazioni verranno trasmesse all’utente registrato.",
+        "bookingForSelf": "Per me stesso",
+        "bookingOther": "Stai prenotando per un’altra persona.",
+        "bookingSelf": "Stai prenotando per te stesso.",
+        "confirmDetails": "Assicurati che i dati siano corretti e continua con la prenotazione.",
+        "dialogText": "La modifica della selezione causerà la perdita di dati. Sei sicuro?",
+        "form": {
+          "button": "Aggiungi paziente",
+          "editTitle": "Modifica paziente",
+          "firstName": "Nome",
+          "lastName": "Cognome",
+          "loading": "Recupero dei dati del paziente",
+          "phone": "Telefono",
+          "taxCode": "Codice Fiscale",
+          "title": "Dati paziente"
+        },
+        "otherNotBooked": "Stai prenotando per un’altra persona. Inserisci i dati del paziente e continua con la prenotazione.",
+        "providePrescriptionConsent": "Caricherò la prescrizione prima dell’esame",
+        "selfNotBooked": "Stai prenotando per te stesso. Inserisci i tuoi dati e prosegui con la prenotazione.",
+        "title": "Seleziona il paziente"
+      },
+      "step4": {
+        "additionalInfo": "<strong>Info aggiuntive</strong> <0>(Facoltativo)</0>",
+        "addressCard": {
+          "title": "Indirizzo visita"
+        },
+        "billingDetails": {
+          "modal": {
+            "title": "La modifica della selezione causerà la perdita di dati. Sei sicuro?"
+          },
+          "radioCompany": "Persona Giuridica",
+          "radioPerson": "Persona fisica",
+          "radioTitle": "Attività del richiedente:",
+          "title": "Modifica i dati di fatturazione"
+        },
+        "checkboxes": {
+          "privacy": "Dichiaro di aver letto <0>la privacy policy<0>.",
+          "referto": "Acconsento di ricevere il <0>referto online</0>.",
+          "thirdParty": {
+            "partOne": "Acconsento alla comunicazione dei miei dati a fornitori terzi",
+            "partTwo": "ex art. 6 della privacy policy"
+          }
+        },
+        "consentError": "Accetta i consensi privacy per procedere.",
+        "costSummary": {
+          "notSelected": "Seleziona un metodo di pagamento e prosegui",
+          "selected": {
+            "onSite": "Continua con la prenotazione ed effettua il pagamento a fine visita",
+            "online": "Continua con la prenotazione ed effettua il pagamento online"
+          }
+        },
+        "coupon": {
+          "btnAdd": "Applica",
+          "btnRemove": "Rimuovi",
+          "error": "Il codice inserito è errato",
+          "expired": "Il codice promozionale inserito è scaduto",
+          "name": "Codice sconto",
+          "placeholder": "Es. XXXXXX",
+          "success": "Codice sconto <0>applicato<0>",
+          "title": "Inserisci un codice sconto"
+        },
+        "dateTime": {
+          "description": "L’esame verrà effettuato nell’intervallo di tempo specificato e durerà circa un’ora. L’orario esatto verrà aggiornato la sera prima della visita.",
+          "firstVisit": "Visita 1:",
+          "followUpVisit": "Visita 2: Effettuata dopo 24 ore",
+          "title": "Data e ora"
+        },
+        "error": {
+          "noSchedule": "La fascia oraria selezionata non è più disponibile. Seleziona un’altra ora completare la prenotazione"
+        },
+        "exam": {
+          "paymentInfo": {
+            "online": "Pagamento Online tramite carta di credito o Paypal",
+            "onsite": "Effettua il pagamento direttamente al professionista alla fine della prestazione, il giorno dell'appuntamento"
+          }
+        },
+        "examen": {
+          "paymentInfo": "Il pagamento verrà effettuato tramite carta di credito al termine della prestazione medica, durante la prima visita",
+          "title": "Esami"
+        },
+        "paymentSummary": "Riepilogo prenotazione",
+        "personalData": "Riepilogo dati personali",
+        "privacy": {
+          "link": "la privacy policy.",
+          "text": "Dichiaro di aver letto"
+        },
+        "referto": {
+          "link": "referto online.",
+          "text": "Acconsento a ricevere il"
+        },
+        "selectPayment": {
+          "options": {
+            "online": {
+              "description": "Con ",
+              "title": "Paga Online",
+              "vivaWalletText": "Servizio fornito da"
+            },
+            "onsite": {
+              "description": "Tramite carta di credito al professionista.",
+              "title": "Paga a fine visita"
+            }
+          },
+          "title": "Conferma e prenota l’appuntamento"
+        },
+        "title": "Conferma e prenota l’appuntamento",
+        "titleBillingDetails": "Dati fatturazione"
+      },
+      "steps": {
+        "booking-success": "Success!",
+        "booking-summary": "Prenota",
+        "data-verification": "Verifica",
+        "patient-data": "Paziente",
+        "select-address": "Indirizzo",
+        "select-payment": "Pagamento",
+        "select-slot": "Data"
+      },
+      "summary": {
+        "paymentType": "Pagamento",
+        "totalExams": "Esami selezionati"
+      }
+    },
+    "bookingDetails": {
+      "actionSection": {
+        "payment": {
+          "info": "<0>Pagamento in sospeso</0> {{amountDue}} € Clicca sul bottone per pagare",
+          "reportUnpaid": "<0>Il referto sarà disponibile dopo il pagamento e l’esecuzione dell’esame</0>Il tempo di refertazione varia in base al servizio prenotato. <br />{{amountDue}} € Clicca sul bottone se vuoi pagare ora online, altrimenti potrai pagare come concordato durante la prenotazione."
+        },
+        "teleConsultation": {
+          "active": "Clicca sul pulsante “Collegati” qui sotto, per avviare la videochiamata con il medico.",
+          "button": "Collegati",
+          "notActive": "Riceverai un promemoria via SMS 10 minuti prima della visita. Poi, potrai cliccare sul pulsante “Collegati” qui sotto, per avviare la videochiamata con il medico.",
+          "status": {
+            "canceled": "Il video consulto non è stato completato perché non eri presente all'appuntamento. Per favore, chiama la nostra assistenza.",
+            "completed": "Il video consulto è stato completato con successo. Riceverai il referto il prima possibile. Se lo hai già ricevuto, lo troverai qui sotto."
+          }
+        }
+      },
+      "attachmentUpload": {
+        "button": "Carica documenti",
+        "description": "<0>Se hai esami o documenti che desideri mostrare al medico, puoi caricarli qui.</0> <1>Ricorda che il medico potrà accedere temporaneamente a tutti i tuoi referti, presenti nella piattaforma Medicilio, per assicurarti la migliore assistenza possibile. </1>",
+        "title": "Carica documenti"
+      },
+      "bankAccount": {
+        "description": "Conto corrente intestato a: <strong> Cantieri Digitali Medtech S.r.l. </strong>"
+      },
+      "bankTransfer": {
+        "description": "Ti ricordiamo di specificare il numero di prenotazione, che trovi in cima alla pagina, nella causale del bonifico. L’importo da bonificare è indicato nel totale."
+      },
+      "bookingConfirmed": {
+        "packageDescription": "<strong> Pacchetto di {{total}} visite </strong>",
+        "totalPaymentDescription": "Il totale dovuto per il pacchetto di {{total}} visite è € {{price}} e include uno sconto di € {{discount}}. Riceverai la fattura dopo l’ultima visita.",
+        "totalPaymentTitle": "Il totale e lo sconto verranno aggiornati quando avrai terminato tutte le visite.",
+        "visitStatus": "<strong>Visita {{count}} di {{total}}</strong>"
+      },
+      "button": {
+        "cs": "Chiama Ora"
+      },
+      "call": {
+        "cs": {
+          "message": "<0>Potrai prenotare le visite successive con il fisioterapista.</0> Chiamaci.",
+          "text": "Chiamaci.",
+          "title": "Potrai prenotare le visite successive con il fisioterapista."
+        }
+      },
+      "disclaimer": {
+        "description": "Stai provvedendo a scaricare alcuni tuoi dati personali. In tal caso Medicilio non potrà essere ritenuto responsabile per lo smarrimento o danneggiamento degli stessi.",
+        "title": "Scopri come scaricare le immagini radiografiche."
+      },
+      "image": {
+        "examVisualize": "Immagini esame"
+      },
+      "package": {
+        "descriptionMessage": "Il pagamento dovrà essere effettuato durante l’ultima visita e, allo stesso tempo, verrà emessa fattura."
+      },
+      "paySlipShare": {
+        "button": "Invia distinta bonifico",
+        "description": "Inviaci la distinta del bonifico via e-mail. Se hai difficoltà con l'invio, puoi chiamarci per assistenza. Ricorda che, senza il pagamento, non possiamo inviarti il referto dell'esame quando sarà pronto.",
+        "title": "Inviaci la distinta bonifico"
+      },
+      "reportVersions": {
+        "listTitle": "Referto precedente:",
+        "multiple": {
+          "description": "Il dottore ha modificato il tuo referto, clicca sul link “scarica referto” per scaricare la versione aggiornata.",
+          "title": "Referto aggiornato"
+        },
+        "single": {
+          "title": "Referto esame"
+        }
+      },
+      "reportVersionsAccordion": {
+        "title": "Mostra tutti i referti"
+      },
+      "tutorialLink": "Scopri come scaricare le immagini radiografiche.",
+      "tutorialPopup": {
+        "header": "Scopri come scaricare le immagini",
+        "step1": "1. Clicca sul link <strong>“Visualizza”</strong> per accedere alla piattaforma PostDICOM.",
+        "step2": "2. <strong> Clicca due volte sul nome del paziente</strong> per visualizzare le immagini.",
+        "step3": "3. <strong> Se stai utilizzando un computer:</strong> clicca sull'icona <strong>\"scarica\"</strong>rappresentata da una freccia che punta verso il basso. <br>\\n<strong> Se stai utilizzando un cellulare:</strong> clicca sull’icona <strong>\"computer\"</strong>  in alto a sinistra e poi sull’icona <strong>\"scarica\"</strong>",
+        "step4": "4. Nella finestra aperta, seleziona le opzioni <strong>\"Jpeg\" e \"ZIP\"</strong>, infine clicca sul pulsante <strong>\"Scarica\"</strong>.",
+        "step5": "Comparirà un messaggio chiedendoti se vuoi vedere la lista dei lavori, <strong>Seleziona \"NO\"</strong>.<br>Partirà così il download del file zip nella cartella predefinita del tuo computer/cellulare."
+      },
+      "variantWithMarker": {
+        "showMore": "Mostra tutti gli esami"
+      },
+      "zeeromedTutorialPopup": {
+        "step1": "1. Clicca sul link <strong>“Visualizza”</strong> per accedere alla piattaforma Zeeromed, dove troverai subito le tue immagini radiografiche.",
+        "step2": "2. Scarica le immagini <strong>cliccando sull’icona “salva Zip”</strong> (ovvero la prima icona in alto a sinistra) come illustrato in figura.",
+        "step3": "3. Si aprirà quindi un popup. <strong>Seleziona il formato “JPEG” e “esporta l’intero esame” poi clicca sul bottone “OK” per procedere.</strong> ",
+        "step4": "4. Partirà così il download del file ZIP che verrà salvato nella cartella predefinita del tuo computer/cellulare.",
+        "step5": "<strong>N.B Se devi allegare le immagini radiografiche salvandole su un CD</strong>, ti consigliamo di <strong>cliccare sull’ icona CD</strong> in alto a sinistra, anziché sull’icona “salva”. Le immagini verranno scaricate immediatamente."
+      }
+    },
+    "bookingOrder": {
+      "prescriptionModal": {
+        "desciption": "Prenota l’esame e carica la prescrizione alla fine del processo. Se non ne possiedi una, possiamo fornirla noi tramite un consulto online.",
+        "title": "Dopo la prenotazione ci servirà la prescrizione medica"
+      }
+    },
+    "booking_step1_costMessage_OSTEO": "Costo di 1 seduta: <strong> 100 €</strong>",
+    "booking_step1_costMessage_TELEMED": "<0>I nostri prezzi</0> Costo di un teleconsulto con medico specializzato 70 €.",
+    "brands": {
+      "lenovo": "Lenovo"
+    },
+    "breadcrumbs": {
+      "admin": {
+        "list": "Admin",
+        "protocols": "Protocolli"
+      },
+      "alerts": {
+        "list": "Alerts",
+        "show": "Risolvi alert"
+      },
+      "chats": "Chat",
+      "dashboard": {
+        "alerts": "Alert",
+        "list": "Dashboard",
+        "measurements": "Misurazioni",
+        "reports": "Report",
+        "televisit": "Televisite"
+      },
+      "doctor-assistant": {
+        "assistants-list": "Assistenti"
+      },
+      "doctor-assistants": {
+        "list": "Assistenti medico"
+      },
+      "doctor": {
+        "createReport": {
+          "back": "Refertazione"
+        }
+      },
+      "measurements": {
+        "list": "Misurazioni"
+      },
+      "organizations": {
+        "create": "Creare organizzazione",
+        "create-independent-practice": "Creare medico indipendente",
+        "list": "Organizzazioni",
+        "my-organization": {
+          "pricing": "Prezzi"
+        },
+        "show": {
+          "department": "Reparti",
+          "details": "Organizzazione",
+          "info": "Info organizzazione",
+          "my-organization": "Admin",
+          "pricing": "Prezzi",
+          "template": "Protocolli",
+          "user": "Utenti"
+        },
+        "template": "Protocolli"
+      },
+      "pathways": {
+        "create": "Crea piani di cura",
+        "list": "Piani di cura",
+        "show": {
+          "alert-history": "Diario attività",
+          "details": "Mostra piano di cura",
+          "info": "Info",
+          "measurements": "Storico",
+          "pathway-details": "Dettagli",
+          "thresholds": "Protocollo Soglie alert",
+          "transaction": "Pagamenti",
+          "trends": "Trends"
+        }
+      },
+      "patients": {
+        "create": {
+          "base": "Crea paziente",
+          "success": "Successo"
+        },
+        "list": "Anagrafica",
+        "show": {
+          "details": "Mostra paziente",
+          "pathway": "Piani di cura",
+          "patient_info": "Info paziente"
+        }
+      },
+      "reports": {
+        "create": "Nuovo report",
+        "list": "Report"
+      },
+      "templates": "Protocolli",
+      "warehouse": {
+        "list": "Warehouse"
+      }
+    },
+    "buttons": {
+      "add": "Aggiungi",
+      "aiFeedback": {
+        "bad": "Contenuto AI non utile",
+        "good": "Contenuto AI utile"
+      },
+      "alertResolution": {
+        "showTrends": "Vedi trends"
+      },
+      "applyFilters": "Applica filtro",
+      "assign": "Associa",
+      "assignAssistant": "Associa assistente",
+      "assignToMe": "Associa a me",
+      "attachments": {
+        "deleteAttachment": "Elimina allegato"
+      },
+      "back": "Indietro",
+      "cancel": "Annulla",
+      "chat": {
+        "cancel": "Annulla",
+        "copy": "Copia",
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "reply": "Rispondere",
+        "resend": "Invia nuovamente",
+        "save": "Salva",
+        "send": "Invia"
+      },
+      "clearFilters": "Rimuovi",
+      "close": "Esci",
+      "closePage": "Esci dalla pagina",
+      "commonResolve": "Risolvi",
+      "confirm": "Conferma",
+      "confirmNonSelectedGP": {
+        "navigateToVisitDetails": "esci",
+        "selectGP": "Inserisci medico di base"
+      },
+      "continue": "Continua",
+      "createDepartment": "Aggiungi reparto",
+      "createOrganization": {
+        "sendInvitationEmail": "Invia e-mail d'invito"
+      },
+      "createPathway": "Assegna piano di cura",
+      "createPathwayTemplate": "Nuovo protocollo",
+      "createPatient": "Nuovo paziente",
+      "createTelevisit": "Nuova televisita",
+      "createThresholdTemplate": "Nuovo template soglie",
+      "createUser": "Aggiungi all'equipe",
+      "delete": "Elimina",
+      "doctorReportCreate": {
+        "teleconsultation": "Accedi al video cosulto"
+      },
+      "download": "Scarica",
+      "edit": "Modifica",
+      "exitFlow": "Termina ed esci",
+      "externalDoctorPatientList": {
+        "navigateToDetails": "Visualizza"
+      },
+      "filter": "Filtri",
+      "filters": "Applica filtro",
+      "finishTeleconsultation": {
+        "confirm": "Termina video consulto",
+        "teleconsultation": "Termina visita"
+      },
+      "groupBy": "Raggruppa per",
+      "invitationForm": {
+        "sendInvitation": "Invia e-mail d'invito"
+      },
+      "measurements": {
+        "showTrends": "Vedi trend"
+      },
+      "newAssistant": "Invita alla mia equipe",
+      "newPathway": "Nuovo piano di cura",
+      "newReport": "Nuovo Report",
+      "nextAlert": "Alert Successivo",
+      "note": {
+        "create": "Crea nota",
+        "delete": "Elimina",
+        "deleteNote": "Elimina nota",
+        "edit": "Modifica"
+      },
+      "openChatPage": "Chatta",
+      "organization": {
+        "create": "Crea organizzazione",
+        "createIndependendPractice": "Nuovo dottore indipendente",
+        "createOrganization": "Nuova organizzazione",
+        "delete": "Elimina organizzazione"
+      },
+      "organizationDepartment": {
+        "delete": "Elimina reparto"
+      },
+      "organizationInformationForm": {
+        "organizationImage": "Carica immagine max 500kb"
+      },
+      "organizationList": "Torna alle organizzazioni",
+      "organizationPathwayTemplateList": "Torna ai protocolli",
+      "organizationUser": {
+        "delete": "Elimina utente"
+      },
+      "participate": "Partecipa",
+      "pathway": {
+        "cancel": "Cancella piano di cura",
+        "create": "Crea Piano di cura",
+        "pause": "Metti in pausa"
+      },
+      "pathwayCreate": {
+        "skipThresholds": "Procedi senza alert"
+      },
+      "pathwayList": {
+        "draftPathway": {
+          "delete": "Elimina bozza"
+        }
+      },
+      "pathwayStatusCard": {
+        "activate": "Attiva",
+        "cancel": "Cancella piano di cura",
+        "pause": "Metti in pausa",
+        "resendPaymentLink": "Rinvia link pagamento"
+      },
+      "patientCreation": {
+        "assignPath": "Assegna percorso",
+        "close": "Esci",
+        "previous": "Indietro",
+        "submit": "Crea paziente"
+      },
+      "previousAlert": "Alert precedente",
+      "reenter": "Rientrare",
+      "refresh": "Aggiorna",
+      "refreshData": "Aggiorna dati",
+      "removeAssignedAssistant": "Disassocia assistente",
+      "removeFilter": "Rimuovi filtro",
+      "removePatientNameFilter": "Rimuovi filtro paziente",
+      "report": {
+        "backToModify": "Torna alla modifica",
+        "create": "Firma report",
+        "delete": "Elimina report",
+        "generateContent": "Genera contenuto",
+        "seePreview": "Vedi anteprima",
+        "settings": "Impostazioni"
+      },
+      "reschedule": "Riprogramma",
+      "resetDemoData": "Elimina dati demo",
+      "resolve": "Risolvi ({{number}})",
+      "resolveAlert": "Risolvi alert ({{number}})",
+      "review": "Revisiona",
+      "save": "Salva",
+      "seedDemoData": "Popola dati demo",
+      "selectGPModal": {
+        "noGPselected": "Nessuno tra questi"
+      },
+      "show": "Visualizza",
+      "showPdf": "Visualizza pdf",
+      "showTemplate": "Visualizza Template",
+      "sider": {
+        "close": "Chiudi menu"
+      },
+      "startTeleconsultation": {
+        "teleconsultation": "Collegati"
+      },
+      "tableComponent": {
+        "filter": "Filtra",
+        "removeFilter": "Rimuovi filtri",
+        "removeSearchFilter": "Rimuovi filtro",
+        "reset": "Rimuovi filtro"
+      },
+      "tableFilterDropdown": {
+        "apply": "Ricerca",
+        "reset": "Ripristina"
+      },
+      "televisit": {
+        "delete": "Elimina televisita",
+        "finish": "Termina televisita"
+      },
+      "templateList": {
+        "delete": "Elimina protocollo",
+        "updatePrice": "Visualizza Prezzi"
+      },
+      "to_be_scheduled": "Programma",
+      "undo": "Annulla",
+      "uploadAttachment": "Carica file",
+      "uploadCSV": "Carica CSV",
+      "uploadPDF": "Carica documento (.pdf)",
+      "videoControls": {
+        "camera": "Camera",
+        "cancel": "Esci",
+        "chat": "Chat",
+        "microphone": "Microfono",
+        "shareScreen": "Condividi"
+      },
+      "view": "Vedi tutte",
+      "viewActiveAlerts": "Vedi alert attivi",
+      "viewAlert": "Vedi alert",
+      "warehouse": {
+        "addDevices": "Aggiungi dispositivi",
+        "deleteDevice": "Elimina dispositivo",
+        "importCsv": "Importa csv"
+      }
+    },
+    "buttons_editDraft": "Modifica bozza",
+    "butttons": {
+      "createTemplate": "Crea protocollo"
+    },
+    "call": "Chiama",
+    "callNow": "Chiama subito",
+    "careGiver": {
+      "checkBox": {
+        "label": {
+          "userForm": "Sono un Caregiver (presto assistenza al paziente)"
+        }
+      }
+    },
+    "careers": {
+      "description": "Medicilio è una startup innovativa con l’obiettivo di portare  <0>servizi sanitari, esami medici ed esami diagnostici al domicilio del paziente</0>, nel modo più rapido possibile e facendo uso delle più moderne tecnologie digitali e mediche.",
+      "openPositionTitle": "Posizioni aperte",
+      "subtitle": "Unisciti al nostro team!",
+      "title": "Lavora con noi"
+    },
+    "common": {
+      "Indrizzi": "Indrizzi",
+      "annulate": "Annulla",
+      "attachments": "Allegati",
+      "book": "Appuntamenti e referti",
+      "breadcrumbs": {
+        "back": "Torna indietro"
+      },
+      "button": {
+        "Activate": "Attiva",
+        "activateVisit": "Attiva la visita",
+        "addPatient": "Aggiungi paziente",
+        "addPatient_copy": "Conferma",
+        "addToWaitingList": "Conferma",
+        "back": "Indietro",
+        "book": "Prenota",
+        "bookNow": "Nuova prenotazione",
+        "call": "Chiamaci",
+        "callUs": "Chiamaci",
+        "cancel": "Annulla",
+        "confirm": "Conferma",
+        "contactAssistent": "Contatta l’assistenza",
+        "contactUs": "Contattaci",
+        "continue": "Continua",
+        "learnMore": "Scopri di più",
+        "modify": "Modifica",
+        "offer": "Prenota",
+        "onlineQuote": "Preventivo online",
+        "prenota": "Prenotazione e Referti",
+        "refetch": "Riprova di nuovo",
+        "registerAndBook": "Continua",
+        "retry": "Riprova",
+        "save": "Salva",
+        "update": "Aggiorna",
+        "upload": "Carica",
+        "viewQuestions": "Visualizza altre domande"
+      },
+      "call": "Chiamaci",
+      "cancel": "Annulla",
+      "confirm": "Conferma",
+      "continue": "Continua",
+      "copied": "Copiato!",
+      "currency": "€",
+      "doctor": {
+        "female": "Dott. ssa {{name}}",
+        "male": "Dott. {{name}}"
+      },
+      "error": {
+        "afterRetry": "Si è verificato un errore. Si prega di contattare l'assistenza.",
+        "apiWithCall": "Si è verificato un problema. Riprova di nuovo per prenotare o, se il problema persiste, chiamaci.",
+        "api_generic": "Ops qualcosa è andato storto!",
+        "api_notFound": "There is no booking related to this id. Please check your booking.",
+        "errorHint": "Si è verificato un errore. Riprova o contatta l'assistenza.",
+        "postdicom_loading": "Errore durante il caricamento del provider Dicom."
+      },
+      "faq": "FAQ",
+      "gender": {
+        "F": "Femmina",
+        "M": "Maschio",
+        "O": "Altro"
+      },
+      "header": {
+        "account": "Account",
+        "appointments": "Appuntamenti",
+        "bookings": "Appuntamenti",
+        "changeRole": "Cambia Utente",
+        "departments": {
+          "cardiology": "Cardiologia",
+          "dentistry": "Odontoiatria",
+          "dermatology": "Dermatologia",
+          "ecografia": "Ecografia",
+          "laboratory": "Esami di Laboratorio",
+          "nurse": "Infermieri",
+          "physiotherapy": "Fisioterapia",
+          "radiology": "Radiologia",
+          "tele-ecografia": "Ecografia",
+          "telemedicine": "Videoconsulto",
+          "test-covid": "Test Covid"
+        },
+        "faqs": "Aiuto",
+        "homepage": "Vai al sito",
+        "info": "Info",
+        "login": "Accedi",
+        "logout": "Esci",
+        "manageSchedule": "Aggiungi Disponibilità",
+        "patientList": "Lista dei pazienti",
+        "phone": "Chiama",
+        "profile": "Profilo",
+        "reportList": "Referti e teleconsulti",
+        "services": "Servizi",
+        "shareReports": "Condivisione referti",
+        "vizualizeProfile": "Visualizza"
+      },
+      "info": {
+        "optional": "Facoltativo"
+      },
+      "information": "Informazioni",
+      "inputLabels": {
+        "address": "Indirizzo",
+        "companyName": "Ragione sociale",
+        "email": "Email",
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "mobile": "Numero di telefono",
+        "phone": "Numero di telefono",
+        "taxCode": "Codice fiscale",
+        "vatNumber": "Partita Iva"
+      },
+      "loading": "Caricamento...",
+      "login": "Accedi",
+      "logout": "Esci",
+      "modify": "Modifica",
+      "months": {
+        "april": "Aprile",
+        "august": "Agosto",
+        "december": "Dicembre",
+        "february": "Febbraio",
+        "january": "Gennaio",
+        "july": "Luglio",
+        "june": "Giugno",
+        "march": "Marzo",
+        "may": "Maggio",
+        "november": "Novembre",
+        "october": "Ottobre",
+        "september": "Settembre"
+      },
+      "news": "News",
+      "noDataFound": "Nessun dato trovato",
+      "offer": "Prenota",
+      "partnership": "Partnership",
+      "partnerships": "Partnerships",
+      "paymentLoading": {
+        "description": "Ti stiamo reindirizzando alla pagina di pagamento.",
+        "header": "Un momento"
+      },
+      "pdfViewer": {
+        "error": "Errore durante il caricamento del PDF",
+        "next": "Succ.",
+        "prev": "Prec."
+      },
+      "placeholder": {
+        "input": "Scrivi or seleziona"
+      },
+      "privacy": "Privacy",
+      "profile": "Profilio",
+      "reservationsSection": "Prenotazioni",
+      "selectAll": "seleziona tutti",
+      "signup": "Registrati",
+      "table": {
+        "header": {
+          "action": "Azione"
+        }
+      },
+      "termsAndContions": "Termini e Condizioni",
+      "toast": {
+        "success": {
+          "create": "Successo!"
+        }
+      },
+      "validation": {
+        "email": {
+          "invalid": "L'input non è valido E-mail!"
+        },
+        "general": {
+          "min": "Sono richiesti almeno {{min}} caratteri.",
+          "required": "Questo campo è obbligatorio."
+        }
+      }
+    },
+    "company": {
+      "checkBox": {
+        "label": {
+          "userForm": "Sono una società"
+        }
+      }
+    },
+    "component": {
+      "login": {
+        "redirectInfo": "Solo un secondo"
+      }
+    },
+    "configureAlertStep": {
+      "noThresholdNeeded": {
+        "description": "Non è necessaria alcuna configurazione di alert per questo piano di cura.",
+        "title": "Puoi procedere senza inserire alert."
+      }
+    },
+    "confirmNonSelectedGP": {
+      "modal": {
+        "text": "<0>Informazioni salvate</0> Vuoi comunque condividere i referti con il medico di base?"
+      }
+    },
+    "confirmSelection": {
+      "checkBox": {
+        "label": {
+          "userForm": "Dichiaro di essere espressamente autorizzato ad effettuare la prenotazione per conto del paziente."
+        },
+        "pro": {
+          "label": {
+            "userForm": "L'utente o il/la paziente dichiara di essere espressamente autorizzato ad effettuare prenotazione per conto del paziente."
+          }
+        }
+      }
+    },
+    "contactCard": {
+      "labels": {
+        "dateOfBirth": "Data di nascita:",
+        "email": "E-Mail:",
+        "gender": "Genere:",
+        "phone": "Tel.:",
+        "taxcode": "C.F.:"
+      },
+      "titles": {
+        "billing": "Dati fatturazione",
+        "patient": "Dati del paziente"
+      }
+    },
+    "contactNow": "Contattaci subito",
+    "contactNumber": "+39 138 92123",
+    "description": {
+      "externalDoctorPatientDetails": "Per vedere tutte le immagini diagnostiche di questo paziente, presenti nel nostro archivio, clicca su “visualizza archivio”",
+      "noteDeleteModal": "Una volta eliminata non potrai più recuperarla.",
+      "organizationDepartmentList": {
+        "deleteDepartmentModal": "Una volta eliminato, non sarà più possibile recuperare i suoi dati."
+      },
+      "organizationList": {
+        "deleteOrganizationModal": "Una volta eliminata, non sarà più possibile recuperare i suoi dati"
+      },
+      "organizationUserList": {
+        "deleteModal": "Una volta eliminato, non sarà più possibile recuperare i suoi dati",
+        "deleteOrganizationModal": "Una volta eliminato, non sarà più possibile recuperare i suoi dati"
+      },
+      "pathwayList": {
+        "deletePathwayModal": "Una volta eliminata non potrai più recuperarla."
+      },
+      "pathwayStatus": {
+        "activatePathwayModal": "L’attivazione del piano di cura avviene automaticamente al primo login del paziente.\\nSei sicuro di voler attivarlo manualmente?",
+        "cancelPathwayModal": "I pagamenti saranno interrotti e non verranno più trasmesse le misurazioni dei parametri vitali del paziente. Confermi di voler procedere con la cancellazione?",
+        "completePathwayModal": "Completando il piano di cura, questo verrà chiuso definitivamente: non sarà più possibile ricevere nuove misurazioni dal paziente, né il paziente potrà accedere ai contenuti.\\nVuoi procedere?",
+        "continuePathwayModal": "Lo stato verrà modificato in Attivo per la selezione corrente.\\nVuoi procedere?",
+        "pausePathwayModal": "I pagamenti saranno sospesi e non verranno più trasmesse le misurazioni dei parametri vitali del paziente. Confermi di voler procedere?",
+        "paymentFailedPathwayModal": "Continueremo a ricevere le misurazioni dai pazienti, ma gli alert non verranno più generati. \\nVuoi procedere?"
+      },
+      "reportList": {
+        "deleteReport": "Una volta eliminato, non potrai più recuperarlo."
+      },
+      "televisitEntrance": {
+        "inactive": "Potrai collegarti 15 minuti prima dell’orario d'inizio."
+      },
+      "televisitList": {
+        "deleteTelevisit": "Una volta eliminata, non potrai più recuperarla."
+      },
+      "templateList": {
+        "deleteTemplate": "Una volta eliminato, non sarà più possibile recuperare i suoi dati."
+      },
+      "visitDetails": "Visita del {{date}}, fascia oraria: {{time}}",
+      "warehouseList": {
+        "deleteDeviceModal": "Il dispositivo verrà eliminato e non comparirà più nell’elenco. Confermi di voler procedere con la cancellazione?"
+      }
+    },
+    "doctor": {
+      "breadcrumbs": {
+        "backButton": "Refertazione"
+      },
+      "patientHistory": {
+        "list": {
+          "empty": "Non ci sono referti per questo paziente.",
+          "title": "Storico Esami"
+        }
+      },
+      "reportDetail": {
+        "booking": {
+          "image": {
+            "link": "Visualizza immagini"
+          }
+        },
+        "image": {
+          "link": "Visualizza archivio"
+        }
+      },
+      "reportDetails": {
+        "prescription": {
+          "link": "Prescrizione medica"
+        }
+      },
+      "reportList": {
+        "description": {
+          "emptyState": "Non ci sono ancora referti"
+        }
+      }
+    },
+    "doctorReport": {
+      "attachmentViewAndUpload": "Allegato",
+      "bookingCode": "N. Prenotazione",
+      "create": {
+        "anamnesis": {
+          "labels": {
+            "attachments": "Allegati",
+            "clinic": "Quesito Clinico",
+            "dosage": "Dose Erogata",
+            "dosageClass": "Classe di dose:",
+            "examen": "Esame",
+            "note": "Note del tecnico",
+            "technique": "Tecnica"
+          },
+          "title": "Ananmnesi Paziente"
+        },
+        "button": "Visualizza referto",
+        "department": {
+          "title": "Dipartimento"
+        },
+        "examen": {
+          "title": "Esame"
+        },
+        "passwordCopied": "Password copiata con successo!",
+        "passwordCopy": "(clicca qui per copiare)",
+        "postdicomImage": "Visualizza le immagini radiografiche",
+        "report": "Referto",
+        "technician": {
+          "name": "Nome del tecnico",
+          "phone": "Telefono del tecnico"
+        },
+        "title": "Scrivi il referto"
+      },
+      "details": {
+        "anamnesis": {
+          "not_provided": "Nessun dato anamnestico"
+        },
+        "button": "Scrivi Referto",
+        "modifyReport": "Modifica referto",
+        "patient": {
+          "birth": "Data di nascita",
+          "gender": "Genere",
+          "name": "Nome del Paziente",
+          "phone": "Tel",
+          "taxcode": "Codice Fiscale",
+          "title": "Informazioni generali"
+        },
+        "reportButton": "Visualizza referto",
+        "startTeleconsultation": "Inizia video consulto",
+        "switch": {
+          "exam": "Esami",
+          "patient": "Info Paziente"
+        }
+      },
+      "documentViewAndDownload": "Documenti",
+      "documentViewAndUpload": {
+        "modals": {
+          "uploadAttachment": {
+            "buttons": {
+              "cancel": "Annulla",
+              "submit": "Carica documento"
+            },
+            "subTitle": "Carica e allega un documento a questo referto",
+            "title": "Carica documento"
+          }
+        }
+      },
+      "exam": "Esami",
+      "list": {
+        "completedStateEmpty": "Non ci sono ancora referti da scrivere.",
+        "description": "Qui trovi la lista dei pazienti in attesa del referto e quella dei pazienti che devono effettuare un video consulto.",
+        "empty": "Al momento non ci sono referti da scrivere.",
+        "pendingStateEmpty": "Congratulazioni, tutti i referti sono stati completati.",
+        "table": {
+          "header": {
+            "action": "Azione",
+            "activity": "Attività",
+            "booking": "N. Prenotazione",
+            "date": "Data esame",
+            "doctor": "Medico refertante",
+            "exam": "Esami",
+            "exams": "Esami",
+            "patient": "Paziente",
+            "status": "Stato",
+            "variants": "Esami"
+          },
+          "orderReports": "Filtra referti per",
+          "reportStatus": {
+            "assigned": "Assegnato",
+            "canceled": "Annullata",
+            "failed": "Fallito",
+            "modified": "Modificato",
+            "pending": "Referto da scrivere",
+            "signed": "Referto firmato",
+            "uploaded": "Caricato",
+            "waitingExam": "In attesa dell'esame"
+          },
+          "reportsPerPage": "Righe per pagina:",
+          "selectStatus": {
+            "all": "Tutti",
+            "completedBooking": "Completati",
+            "pendingBooking": "Da scrivere"
+          },
+          "title": "Elenco prenotazioni e referti",
+          "visitCompleted": "Visita completata",
+          "writeReport": "Referto da scrivere"
+        },
+        "title": "Benvenuto Dott. {{name}}"
+      },
+      "patient": "Paziente",
+      "report": "Referto",
+      "upload": {
+        "button": "Firma referto",
+        "modals": {
+          "confirm": {
+            "description": "Confermando l'operazione il referto verrà direttamente trasmesso al paziente. Una volta inviato, il referto non potrà più essere modificato.",
+            "title": "Confermi l'invio del referto firmato?"
+          },
+          "error": {
+            "description": "Si è verificato un problema con il caricamento del referto e non è stato possibile completare l'invio. Contatta l'assistenza e riprova più tardi.",
+            "title": "Errore caricamento referto"
+          },
+          "success": {
+            "description": "Referto inviato con successo!",
+            "title": "Visita completata"
+          }
+        },
+        "step": {
+          "1": "Scarica e firma il referto",
+          "2": "Carica il referto firmato"
+        },
+        "subtitle": "Visualizza il referto, controlla che sia corretto e firmalo.<br /> <strong>Una volta firmato non potrà più essere modificato.</strong>",
+        "title": "Visualizza Referto"
+      }
+    },
+    "dropzone": {
+      "text": "Trascina un file qui, altrimenti clicca per selezionare un documento."
+    },
+    "emailSubscription": {
+      "modal": {
+        "error": "Si è verificato un errore",
+        "success": "E-mail aggiunta correttamente. Ti informeremo quando il servizio sarà disponibile."
+      }
+    },
+    "emailValidation": {
+      "error": {
+        "button": "Richiedi link",
+        "content": "Inserisci nuovamente il tuo indirizzo e-mail e ti invieremo il nuovo link per confermare il tuo account",
+        "title": "Questo link di validazione è scaduto"
+      },
+      "success": {
+        "button": "Accedi",
+        "content": "La tua mail è stata confermata con successo. Continua a scoprire i nostri servizi e scegli quello più adatto alle tue esigenze!",
+        "title": "E-mail confermata"
+      }
+    },
+    "empty": {
+      "alerts": {
+        "list": "Tutto sotto controllo. Non ci sono alert attivi in questo momento."
+      },
+      "list": {
+        "measurements": "Al momento non ci sono misurazioni.",
+        "organizationDepartmentList": "Nessun reparto trovato",
+        "organizationList": "Non sono state trovate organizzazioni.",
+        "organizationUserList": "Nessun utente trovato",
+        "pathwayList": "Non sono stati trovati piani di cura.",
+        "pathwayListNotAdmin": "Non sono stati trovati piani di cura per questo paziente.<br /><br />\\nÉ possibile che esistano piani di cura creati da altri utenti per i quali non hai le autorizzazioni necessarie alla visualizzazione.",
+        "pathwayTemplate": "Nessun protocollo trovato",
+        "pathwayTemplateList": "Al momento non sono presenti protocolli.",
+        "pathwayTransaction": "Nessuna transazione trovata",
+        "patientList": "Non sono stati trovati pazienti.",
+        "televisitList": "Nessun programma per la televisita trovato",
+        "templatesNotFound": "Non sono stati trovati protocolli.",
+        "thresholdTemplate": "Al momento non sono presenti protocolli soglie alert.",
+        "warehouseList": "Nessun dispositivo trovato"
+      },
+      "measurements": {
+        "list": "Al momento non ci sono misurazioni per questo piano di cura."
+      },
+      "reports": {
+        "list": "Non ci sono report attivi in questo momento."
+      }
+    },
+    "error": {
+      "account_blocked": "<0> Troppi tentativi non riusciti. </0> Per ragioni di sicurezza abbiamo disabilitato il tuo profilo.  Riprova tra {{variable}} minuti, oppure <1>clicca qui per impostare una nuova password</1>.",
+      "anamnesis_404": "Errore nel caricamento dei dati anamnestici!",
+      "api_generic": "Ops qualcosa è andato storto!",
+      "booking_checkout_generic": "Si è verificato un problema. Riprova di nuovo per prenotare o, se il problema persiste, chiamaci.",
+      "callback": {
+        "nameRequired": "Questo campo non può essere vuoto"
+      },
+      "email_already_registered": "E-mail già registrata, <0>clicca qui per accedere</0> con questo indirizzo e-mail.",
+      "expired_password": "<0> Aggiorna la password </0> Per proteggere al meglio i tuoi dati, ti invitiamo a <1> cliccare qui per aggiornare la tua password </1>",
+      "external_doctor_exists": "Il medico che si sta cercando di aggiungere esiste già. Cercare il medico e aggiungerlo.",
+      "missing_ae_title": "Sincronizzazione fallita, nome AE mancante. Se il problema persiste contattaci.",
+      "missing_privacy_policy_consent": "presta il tuo consenso alla privacy e ai T&C per procedere.",
+      "missing_tc_consent": "presta il tuo consenso alla privacy e ai T&C per procedere.",
+      "no_time_in_schedule": "La fascia oraria selezionata non è più disponibile. Seleziona un’altra ora completare la prenotazione.",
+      "patient_update_not_allowed": "Non è consentito apportare modifiche a questo paziente.",
+      "reportSentError": "Si è verificato un errore durante la firma e l'invio del report, prova di nuovo.",
+      "reset_password_match": "La nuova password non può essere uguale alla precedente",
+      "table": {
+        "noData": "nessun risultato con i filtri inseriti."
+      },
+      "throttled": "Hai raggiunto il numero massimo di richieste giornaliere. Riprova domani o contatta l'assistenza.",
+      "token_not_valid": "La sessione è scaduta. Effettua nuovamente l'accesso.",
+      "user_auth_failed_with_attempts": "<0> E-mail o Password errate </0> Prova di nuovo. Ricorda che hai ancora {{variable}} tentativi.  Non ricordi la password? <1> Richiedi nuova password </1>",
+      "user_not_activated": "Per effettuare l'accesso devi prima finalizzare la creazione del tuo account cliccando sul link che ti abbiamo fornito tramite e-mail.",
+      "user_unauthenticated": "<0> E-mail o password errate. </0> Assicurati che siano corrette e riprova.",
+      "validation": {
+        "email": "Inserisci un’ e-mail valida",
+        "exists_tax_code": "Esiste già un paziente con questo codice fiscale",
+        "invalid_choice": "devi selezionare un’opzione per proseguire",
+        "invalid_is_user": "Hai già selezionato questa opzione per un altro paziente. Se i dati sopra indicati coincidono con i tuoi dati personali, chiama l’assistenza clienti. Altrimenti deseleziona e prosegui.",
+        "invalid_password": "Le credenziali inserite non sono corrette. Ti invitiamo a riprovare.",
+        "invalid_tax_code": "Codice fiscale non valido",
+        "invalid_updated_variants": "Devi selezionare almeno un esame.",
+        "phone": "Numero di telefono errato.",
+        "weak_password": "Password inserita troppo debole. Riprova con una password più complessa."
+      }
+    },
+    "errors": {
+      "acceptTerms": "Accetta i termini e condizioni.",
+      "activity": {
+        "forbidden": "Non è consentito completare l'attività in questo momento.",
+        "invalid_time": "Invio attività fuori da fascia oraria prescritta."
+      },
+      "alerts": {
+        "fetchError": "Si è verificato un errore mentre recuperavamo gli alert, prova di nuovo."
+      },
+      "allowed_domains": {
+        "invalid": "Questo non è un formato di dominio corretto"
+      },
+      "api_generic_message": "Si è verificato un errore.\\nProva nuovamente, se il problema persiste contatta il servizio clienti.",
+      "api_generic_trace": "ID operazione: {{traceId}}",
+      "country_code": {
+        "invalid": "Il prefisso selezionato non è valido"
+      },
+      "department": {
+        "exists": "Questo reparto è già presente nell'organizzazione",
+        "missing": "Creare un reparto prima d'invitare i medici nell'organizzazione."
+      },
+      "department_already_exists": "Il reparto esiste già per questa organizzazione.",
+      "departments": {
+        "not_found": "Reparto non trovato"
+      },
+      "domain": {
+        "forbidden": "Dominio email non consentito per l'organizzazione."
+      },
+      "email": {
+        "exists": "E-mail o numero di telefono già in uso. Modifica i dati e riprova."
+      },
+      "external_license_id": {
+        "required": "Inserisci l'ID organizzazione"
+      },
+      "external_org_code": {
+        "not_found": "Organizzazione non trovata"
+      },
+      "fileSize": "Il file è troppo grande.",
+      "greaterThanZero": "Inserisci un valore maggiore o uguale a zero",
+      "head": {
+        "user_already_head": "Uno degli utenti inseriti è già a capo di un altro dipartimento."
+      },
+      "head_assistant_email": {
+        "email_cant_be_the_same": "Le email non possono essere uguali"
+      },
+      "head_doctor": {
+        "exists": "Il direttore di questo dipartimento esiste già."
+      },
+      "head_emails_are_the_same": "L'email del direttore e coordinatore infermieristico non possono essere uguali.",
+      "info": {
+        "required": "Aggiungi le informazioni sul piano di cura per continuare"
+      },
+      "invitation": {
+        "forbidden": "Invito non consentito.",
+        "invalid": "L'invito è invalido o scaduto."
+      },
+      "measurements": {
+        "fetchError": "Errore durante il recupero delle ultime misurazioni.",
+        "lastMeasurementsNotFetching": "Errore nel caricamento delle misurazioni, riprova."
+      },
+      "monthly_price": {
+        "price_does_not_cover_medicilio_fee": "Il prezzo del percorso non copre la tariffa Medicilio"
+      },
+      "network": {
+        "missing": "Prima di spedire il kit inserisci le informazioni del gateway."
+      },
+      "network_information": {
+        "external_assigned_id_exists": "Il gateway id inserito è già associato ad un altro piano di cura.",
+        "telemonitoring_pathway_id_exists": "Un altro piano di cura con lo stesso ID è già esistente."
+      },
+      "noInvitationEmailsSent": "Nessuna email è stata inviata. Riprova più tardi",
+      "organization": {
+        "exists": "Esiste già un'organizzazione con questo nome."
+      },
+      "organizationList": {
+        "organizationListNotFetching": "Nessuna organizzazione trovata. Controlla i filtri o ricarica la tabella."
+      },
+      "pathway": {
+        "already_paid": "Il piano di cura è già stato pagato.",
+        "price_does_not_cover_medicilio_fee": "ll prezzo di questo servizio non è sufficiente a coprire i costi di Medicilio. Ti chiediamo di aumentare il prezzo per poter continuare."
+      },
+      "pathwayList": {
+        "pathwayListNotFetching": "Si è verificato un errore durante il caricamento dell'elenco, riprovare."
+      },
+      "pathwayTransaction": {
+        "pathwayTransactionNotFetching": "Si è verificato un errore durante il caricamento delle transazioni"
+      },
+      "patientList": {
+        "patientListNotFetching": "Si è verificato un errore durante il caricamento dell'elenco, riprovare."
+      },
+      "permission_denied": "Non hai il permesso per accedere alla risorsa. Permesso mancante: {{permission}}",
+      "phone_number": {
+        "exists": "Il numero inserito è già esistente, prova con un altro",
+        "invalid": "Il numero di telefono non è valido",
+        "max_length": "Il numero specificato è troppo lungo"
+      },
+      "profile": {
+        "completition_error": "Errore durante il completamento del profilo."
+      },
+      "reports": {
+        "list": "Si è verificato un errore durante il recupero dei report, prova di nuovo.",
+        "noCheckboxSelected": "Seleziona almeno una sezione da includere nel report.",
+        "noPathway": {
+          "description": "Seleziona un paziente con un percorso attivo.",
+          "title": "Nessun piano di cura per questo paziente"
+        }
+      },
+      "tax_code": {
+        "exists": "Un paziente con questo codice fiscale è già presente nei nostri sistemi.",
+        "invalid": "Il codice fiscale inserito non è valido."
+      },
+      "televisit": {
+        "forbidden": "Si è verificato un problema nell’eliminare la televisita. Riprova."
+      },
+      "televisitChat": {
+        "fileSize": "File troppo grande. Riduci la dimensione a {{fileSize}} MB o meno per procedere.",
+        "fileUpload": "Si è verificato un errore durante il caricamento del file."
+      },
+      "televisitList": {
+        "fetching": "Si è verificato un errore durante il recupero dei dati, riprova."
+      },
+      "threshold_not_found": "Soglie mancanti per uno dei parametri.",
+      "unableToPreview": "...",
+      "user": {
+        "present_in_different_organization": "L'utente è già presente in un'altra organizzazione"
+      },
+      "user_already_exists": "Questo utente esiste già nel sistema.",
+      "validation": {
+        "invalidTaxCode": "Il codice fiscale inserito non è valido. Controlla e riprova."
+      },
+      "vital_parameters": {
+        "required": "È necessario selezionare almeno un parametro vitale"
+      },
+      "wrong_number_of_thresholds": "Il numero di soglie inserite è diverso da quello atteso."
+    },
+    "externalDoctor": {
+      "manageSharing": {
+        "changeGP": {
+          "description": "Per migliorare la collaborazione e la gestione dei tuoi referti. <0>Seleziona medico di base</0>",
+          "title": "Seleziona il medico di base"
+        }
+      },
+      "patientList": {
+        "patientDetailLink": "Cartella clinica"
+      },
+      "reportList": {
+        "document": {
+          "available": "Documenti disponibili"
+        },
+        "emptyState": "Non ci sono pazienti disponibili.",
+        "headline": "Benvenuto Dott. {{lastName}}",
+        "infoText": "I pazienti hanno deciso di condividere con Lei i referti degli esami eseguiti con Medicilio.",
+        "infoTextWithoutResults": "Quando un dei suoi pazienti eseguirà un esame con Medicilio, qui potrà trovare i referti."
+      }
+    },
+    "externalDoctors": {
+      "create": {
+        "modal": {
+          "label": {
+            "email": {
+              "hint": "Per condividere il referto, ci serve l'email del tuo medico. Se non la conosci, lascia questo spazio vuoto e ci occupiamo noi di contattarlo."
+            },
+            "title": {
+              "option": {
+                "female": "Dottoressa",
+                "male": "Dottore"
+              }
+            }
+          },
+          "title": "Indica i dati del medico"
+        }
+      }
+    },
+    "filter": {
+      "patient": "Paziente",
+      "patient_date": "Paziente e data",
+      "patient_measurement_type": "Paziente e parametro",
+      "red": "Alert rossi",
+      "sort": {
+        "title": "Clicca per annullare l'ordinamento",
+        "titleData": "Ordina per data"
+      },
+      "yellow": "Alert gialli"
+    },
+    "filters": {
+      "notes": "Note",
+      "selectAll": "Seleziona tutto",
+      "solvedAlerts": "Alert risolti"
+    },
+    "forgotPassword": {
+      "btn": "Invia e-mail",
+      "description": "Inserisci il tuo indirizzo e-mail. Ti invieremo una e-mail con le istruzioni per impostare una nuova password.",
+      "emailText": "Inviaci una mail all’indirizzo",
+      "phoneText": "Chiamaci al",
+      "problem": "Hai riscontrato dei problemi?",
+      "success": {
+        "btn": "Torna alla pagina di accesso",
+        "description": "Se non hai ricevuto l’e-mail, controlla nella cartella di posta indesiderata o verifica che l’indirizzo e-mail sia corretto.",
+        "title": "Le istruzioni per ripristinare la password sono state inviate a: {{email}}"
+      },
+      "title": "Reimposta la tua password"
+    },
+    "form": {
+      "validation": {
+        "email": {
+          "invalid": "E-mail non valida. Assicurati di digitare un indirizzo corretto."
+        },
+        "emailFormat": "Formato e-mail errato",
+        "fields": "Aggiornamento non valido: Controlla i campi obbligatori mancanti.",
+        "invalidDomain": "Questo dominio non è corretto. Utilizzare un formato corretto (es. gmail.com, hotmail.com)",
+        "invalidEmails": "Una o più e-mail non sono presenti nell'elenco",
+        "invalidHeight": "L’altezza inserita non è valida",
+        "invalidWeight": "Il peso inserito non è valido",
+        "lowGreaterThanHigh": "Soglia minima più alta della massima.",
+        "maxHeight": "L’altezza inserita è troppo alta",
+        "maxPhoneLength": "Il numero di telefono non deve avere più di {{maxLength}} numeri",
+        "maxValue": "Massimo: {{max}}",
+        "maxWeight": "Il peso inserito è troppo alto",
+        "minDose": "La dose non può essere zero",
+        "minHeight": "L’altezza inserita è troppo bassa",
+        "minPhoneLength": "Questo numero non deve essere inferiore a {{minLength}}",
+        "minValue": "Minimo: {{min}}",
+        "minWeight": "Il peso inserito è troppo basso",
+        "negativeNumbers": "Il valore non può essere negativo.",
+        "number": "Il valore deve essere un numero.",
+        "phoneNumber": {
+          "digits": "Formato telefono errato: inserisci solo numeri"
+        },
+        "redHighMustBeGreaterThanYellow": "La soglia minima deve essere maggiore di quella gialla.",
+        "redLowMustBeLessThanYellow": "La soglia minima deve essere minore di quella gialla.",
+        "required": "Questo campo è obbligatorio: <strong>{{field}}</strong>",
+        "sameDaySection": "Non è possibile selezionare due volte lo stesso periodo. Seleziona un altro periodo."
+      }
+    },
+    "forms": {
+      "adminEmails": {
+        "title": "Aggiungi utenti"
+      },
+      "assignAssistentForm": {
+        "title": "Collega assistente al medico {{doctor}}"
+      },
+      "independentPractice": {
+        "title": "Nuovo dottore"
+      },
+      "invitationForm": {
+        "title": "Invita utenti a"
+      },
+      "organizationDepartment": {
+        "title": "Info reparto"
+      },
+      "organizationDepartmentCreate": {
+        "title": "Crea nuovo reparto"
+      },
+      "organizationInformation": {
+        "title": "Anagrafica società"
+      },
+      "organizationPayment": {
+        "title": "Pagamento e fatturazione"
+      },
+      "organizationPricing": {
+        "title": "Configurazione prezzi"
+      },
+      "organizationSettings": {
+        "title": "Impostazioni"
+      },
+      "pathwayCreate": {
+        "configureAlert": {
+          "title": "Configura soglie alert"
+        },
+        "pathwaySummary": {
+          "title": "Riepilogo e prezzi"
+        },
+        "selectPathway": {
+          "title": "Seleziona piano di cura"
+        },
+        "selectPatient": {
+          "title": "Seleziona paziente"
+        }
+      },
+      "reportContent": {
+        "noSectionsSelected": "Nessuna sezione del report (parametri vitali o elementi del percorso) è stata selezionata. Selezionare almeno una sezione nelle impostazioni.",
+        "subheader": "Il report è generato con AI e richiede revisione medica. I dati dei pazienti restano privati e trattati solo nel modello AI.",
+        "title": "Report di {{patientName}}"
+      },
+      "reportReview": {
+        "title": "Report di {{patientName}}"
+      },
+      "reportSettings": {
+        "title": "Nuovo report"
+      }
+    },
+    "header": {
+      "customerSupport": {
+        "contact": "Contatti"
+      },
+      "switch": {
+        "user": "Seleziona utente"
+      }
+    },
+    "help": {
+      "multipleEmails": "Puoi aggiungere più indirizzi e-mail (es. gmail.com, outlook.com)"
+    },
+    "input": {
+      "validation": {
+        "password": {
+          "hint": {
+            "16Characters": "Almeno 16 caratteri",
+            "1Uppercase": "- 1 lettera maiuscola e 1 minuscola",
+            "8Characters": "- Almeno 8 caratteri",
+            "specialCharacter": "- 1 simbolo come (!#-%)"
+          }
+        }
+      }
+    },
+    "inputValidation": {
+      "email": "Inserire un indirizzo email valido.",
+      "length": "Must be exact {{characters}} characters long.",
+      "maxLength": "Should not exceed {{characters}} characters.",
+      "minLength": "Deve contenere almeno {{characters}} caratteri",
+      "minLengthPhone": "Deve contenere {{characters}} numeri",
+      "mobile": "Inserire un numero di telefono valido (esempio: +3912233455).",
+      "required": "Questo campo non può essere vuoto",
+      "taxCode": "Inserire un codice di fiscale valido.",
+      "vatNumber": "Inserisci un numero di partita IVA valido"
+    },
+    "invitationModal": {
+      "form": {
+        "email": {
+          "existingUsers": "Gli utenti con le seguenti e-mail esistono già: {{emails}}"
+        }
+      }
+    },
+    "invitationValidityCheck": {
+      "description": {
+        "checking": "Controllo dell'invito in corso, attendi qualche istante.",
+        "expired": "Questo link è scaduto. Chiama il nostro supporto al numero +39 0238592676 per richiedere un nuovo link.",
+        "success": "Solo un secondo"
+      },
+      "title": {
+        "checking": "Verifica dell'Invito",
+        "expired": "Link di attivazione scaduto",
+        "success": "Ti stiamo reindirizzando a Medicilio, solo un secondo."
+      }
+    },
+    "isRelative": {
+      "checkBox": {
+        "label": {
+          "userForm": "Sono un parente"
+        }
+      }
+    },
+    "isUser": {
+      "checkBox": {
+        "label": {
+          "userForm": "Io sono il paziente"
+        }
+      },
+      "userForm": {
+        "userData": {
+          "error": "Hai già selezionato questa opzione per un altro paziente. Se i dati sopra indicati coincidono con i tuoi dati personali, chiama l’assistenza clienti. Altrimenti deseleziona e prosegui."
+        }
+      }
+    },
+    "label": {
+      "externalDoctors": {
+        "create": {
+          "modal": {
+            "checkbox": "medico di base"
+          }
+        }
+      },
+      "televisit": {
+        "today": "Oggi - {{time}}"
+      }
+    },
+    "labels": {
+      "UpdateThresholdsModal": {
+        "title": "Modifica soglie alert"
+      },
+      "acceptTerms": "Termini e condizioni",
+      "action": "Azione",
+      "actions": "Azioni",
+      "activatedAt": "Data attivazione",
+      "activationCost": {
+        "hint": "(una tantum)",
+        "title": "Costo di attivazione"
+      },
+      "activationPrice": "Prezzo di attivazione (€)",
+      "active": "Attivo",
+      "afib": "Fibrillazione atriale",
+      "afibAbsent": "Assente",
+      "afibPresent": "Presente",
+      "age": "Anni",
+      "alert": "Alert",
+      "alertCard": {
+        "measuredAt": "Misurazione del {{date}} alle {{hour}}"
+      },
+      "alertLevel": {
+        "red": "Alert rosso",
+        "yellow": "Alert giallo"
+      },
+      "alertResolveCard": {
+        "performedAction": "Azioni Intraprese"
+      },
+      "alertResolved": {
+        "description": "Puoi ora risolvere altri alert o tornare alla pagina principale.",
+        "title": "Alert risolto"
+      },
+      "allowedDomains": "Domini consentiti",
+      "anamnesis": "Anamnesi",
+      "armfit": "Armfit",
+      "assignedAssistent": "Assistenti associati",
+      "assignedDoctor": "Dottori associati",
+      "assignedTo": "Assegnato a",
+      "assignedToDoctor": "Mia equipe",
+      "assistants": "Assistenti",
+      "attachments": "Allegati",
+      "autoRefresh": "Aggiorna dati automaticamente",
+      "availableAlertsCard": {
+        "alertCount": "Ci sono {{redAlerts}} alert rossi e {{yellowAlerts}} alert gialli attivi.",
+        "description": "Visita la pagina degli avvisi per controllare i dettagli e intervenire.",
+        "title": "Ci sono alert da risolvere!"
+      },
+      "birthDate": "Data di nascita",
+      "bmi": "BMI",
+      "bookingDetails": {
+        "basePrice": "Prezzo base"
+      },
+      "buildingNumber": "Civico",
+      "chat": "Chat",
+      "city": "Città",
+      "clinicalNote": "Aggiungi una nota clinica al diario",
+      "code": "Codice",
+      "completeProfile": {
+        "acceptTerms": "Accetta la <0>Privacy Policy</0> e i <1>Termini e le Condizioni</1> stabiliti da {{organizationName}}."
+      },
+      "createOrganizationForm": {
+        "organization": "Tipo società"
+      },
+      "createdBy": "Creata da {{name}} il {{date}} alle {{time}}",
+      "createdDate": "Ingresso",
+      "creationDate": "Data creazione",
+      "currentLogo": "Logo attuale",
+      "dailySteps": "Numero minimo di passi giornalieri",
+      "date": "Data",
+      "dateRange": {
+        "from": "Dal",
+        "to": "al"
+      },
+      "day": "Giorno",
+      "dayTime": {
+        "afternoon": "pomeriggio",
+        "evening": "sera",
+        "morning": "mattina"
+      },
+      "department": "Reparto",
+      "departments": "Reparti",
+      "device": {
+        "class2a": "classe 2a",
+        "medical": "Dispositivo medico",
+        "name": "Dispositivo {{deviceName}}",
+        "tablet": "Dispositivo tablet"
+      },
+      "deviceName": "Nome dispositivo",
+      "deviceType": "Dispositivo",
+      "diastolic": {
+        "short": "dia"
+      },
+      "doctor": "Dottore",
+      "doctorEmail": "E-mail dottore",
+      "doctorFirstName": "Nome dottore",
+      "doctorLastName": "Cognome dottore",
+      "doctorPatientList": {
+        "moreExams_copy": "+ altri {{number}} esami"
+      },
+      "doctorReportList": {
+        "noEta": "Non assegnata"
+      },
+      "doseQuantity": "Quantità per dose",
+      "drug": "Farmaco",
+      "drugs": "Farmaci",
+      "drugsEndDate": "Nessuna data di fine",
+      "duration": "Durata",
+      "durationMonths": "Durata (mesi)",
+      "email": "E-mail",
+      "end": "Fine",
+      "endDate": "Data fine",
+      "endingDate": "Data fine assunzione",
+      "error": "Errore",
+      "exams": "Esame",
+      "excludedPathwayElements": "Parti escluse",
+      "externalDoctorHistoryList": {
+        "moreExams": "+ altri {{number}} esami"
+      },
+      "femaleDoctor": "Dott.ssa",
+      "female_doctor": "Dott. Ssa",
+      "firstName": "Nome",
+      "firstPayment": {
+        "hint": "(include costo attivazione e prima rata)",
+        "title": "Primo pagamento"
+      },
+      "firstSelectedDaySection": "Orario 1",
+      "frequencies": {
+        "biannual": "semestrale",
+        "daily": "Giornaliero",
+        "end_of_pathway": "Alla fine del percorso",
+        "monthly": "mensile",
+        "once_a_day": "Una volta al giorno",
+        "once_a_week": "Una volta a settimana",
+        "quarterly": "trimestrale",
+        "single": "Singola",
+        "three_times_a_day": "Tre volte al giorno",
+        "trimestral": "Trimestrale",
+        "twice_a_day": "Due volte al giorno",
+        "yearly": "annuale"
+      },
+      "frequency": "Frequenza",
+      "fullAddress": "Indirizzo completo",
+      "fullName": "Nome/Cognome",
+      "gatewayId": "Gateway ID",
+      "gender": "Genere",
+      "headAssistantEmail": "Coordinatore infermieristico email",
+      "headDoctorEmail": "Direttore email",
+      "height": "Altezza",
+      "impedance": "Impedenza",
+      "inactive": "Disattivo",
+      "independentPractice": {
+        "contact": "Contatti",
+        "generalInfo": "Info generiche"
+      },
+      "invitationStatus": {
+        "accepted": "Attivo",
+        "draft": "Da invitare",
+        "expired": "Invito scaduto",
+        "pending": "In sospeso",
+        "title": "Stato"
+      },
+      "invoice": "Fatturazione",
+      "invoiceOwner": {
+        "medicilio": "Medicilio",
+        "organization": "Organizzazione"
+      },
+      "label": "Organizzazione",
+      "lastName": "Cognome",
+      "logo": "Logo",
+      "maleDoctor": "Dott.",
+      "male_doctor": "Dott.",
+      "maxWeightVariation": "variazione",
+      "measurementDate": "Data misurazione",
+      "measurementType": "Tipo misurazione",
+      "measurements": "Misurazioni",
+      "medicilio": "Medicilio",
+      "modifiedHistory": "Storico modifiche",
+      "modifyPrices": "Modifica prezzi",
+      "monitoringParameter": {
+        "afib": "Fibrillazione atriale",
+        "diastolic": "Pressione Diastolica",
+        "heart_rate": "Frequenza Cardiaca",
+        "saturation": "Ossigenazione",
+        "systolic": "Pressione sistolica",
+        "temperature": "Temperatura",
+        "weight": "Peso"
+      },
+      "monitorings": {
+        "vitalParameters": {
+          "blood_pressure": "PA",
+          "ecg": "ECG",
+          "heart_rate": "FC",
+          "spo2": "SpO2",
+          "temperature": "Temperatura",
+          "weight": "Peso"
+        }
+      },
+      "monthlyFeeClient": "Corrispettivo mensile",
+      "monthlyFeeMedicilio": "Costo mensile Medicilio",
+      "monthlyFeeTotale": "Rata mensile",
+      "monthlyPrice": "Prezzo mensile (€)",
+      "monthly_fee": "Rata mensile",
+      "months": "Mesi",
+      "name": "Nome",
+      "nameThresholdTemplate": "Nome protocollo soglie alert",
+      "no": "No",
+      "notPresent": "Non presente",
+      "note": "Note",
+      "noteAttachment": "Allega file",
+      "noteCategories": "Categoria",
+      "noteCategory": {
+        "clinicalInfo": "Informazioni cliniche",
+        "homeVisit": "Visita domiciliare",
+        "other": "Altro",
+        "phoneCall": "Telefonata",
+        "technicalSupport": "Supporto tecnico",
+        "videoCall": "Video chiamata"
+      },
+      "noteDescription": "Descrizione",
+      "noteDrugs": "Istruzioni per il paziente",
+      "objective": "Obiettivo",
+      "optional": "(Facoltativo)",
+      "organization": "Organizzazione",
+      "organizationAdminEmailsForm": {
+        "organizationAdmin": "Amministratore"
+      },
+      "organizationDoctorCard": {
+        "doctorInformation": "Info generiche"
+      },
+      "organizationInfoForm": {
+        "clinic": "Clinica",
+        "hospital": "Ospedale",
+        "independent_practice": "Dottore Indipendente",
+        "polyclinic": "Poliambulatorio"
+      },
+      "organizationInformationCard": {
+        "generalInformation": "Info generiche"
+      },
+      "organizationInformationForm": {
+        "aiReportGeneration": "Report con AI",
+        "allowedDomains": "Domini consentiti",
+        "medicalSupportChat": "Chat di supporto medico",
+        "name": "Nome società",
+        "organizationImage": "Logo",
+        "requireExternalId": "Richiedi ID organizzazione",
+        "type": "Tipo società"
+      },
+      "organizationName": "Nome organizzazione",
+      "organizationPaymentCard": {
+        "paymentInformation": "Info fatturazione"
+      },
+      "organizationPaymentInformationForm": {
+        "invoiceOwner": "Fatturazione",
+        "medicilio": "Medicilio",
+        "organization": "Organizzazione",
+        "patient": "Paziente",
+        "paymentResponsibility": "Pagamento",
+        "privacyPolicy": "Privacy policy",
+        "termsAndConditions": "Termini e condizioni"
+      },
+      "organizationPricingForm": {
+        "activationPrice": "Prezzo di attivazione",
+        "medicilioMonthlyFee": "Prezzo mensile Medicilio (€)"
+      },
+      "organizationSelect": "Organizzazione o Medico",
+      "organizationType": "Tipologia",
+      "organizationTypes": {
+        "clinic": "Clinica",
+        "hospital": "Ospedale",
+        "independendPractice": "Medico indipendente",
+        "polyclinic": "Poliambulatorio"
+      },
+      "oxy10": "Oxy10",
+      "pathology": "Patologia",
+      "pathway": "Piano di cura",
+      "pathwayEndDate": "Fine Percorso",
+      "pathwayName": "Nome piano di cura",
+      "pathwayNetworkCard": {
+        "gatewayInfo": "Gateway info",
+        "simInfo": "Sim info"
+      },
+      "pathwayPay": "Ti stiamo reindirizzando alla sezione di pagamento...",
+      "pathwayPayError": {
+        "description": "Riprova più tardi e se il problema persiste contattaci al numero <u>+39 0238592676</u>",
+        "title": "Si è verificato un problema tecnico"
+      },
+      "pathwayPaySuccess": {
+        "description": "Pagamento effettuato con successo.",
+        "title": "Congratulazioni"
+      },
+      "pathwayPaymentSuccess": "Pagamento effettuato con successo.",
+      "pathwayStatus": "Stato",
+      "pathwayTemplate": "Protocollo",
+      "patient": "Paziente",
+      "patientMessage": "Messaggio al paziente",
+      "payment": "Pagamento",
+      "paymentResponsibility": {
+        "organization": "Organizzazione",
+        "patient": "Paziente"
+      },
+      "paymentStatus": "Stato pagamento",
+      "paymentSuccessCardTitle": {
+        "title": "Benvenuto in Medicilio Percorsi!"
+      },
+      "paymentSuccessMessage": {
+        "description": "<strong>Il pagamento è stato effettuato con successo e il kit con i dispositivi di monitoraggio verrà spedito al più presto.</strong><br/><br/>\\nNell’attesa, puoi già iniziare a leggere articoli utili sul telemonitoraggio."
+      },
+      "paymentType": "Tipologia",
+      "perMonth": "mese",
+      "performedAction": "Azione eseguita",
+      "periodDate": "Periodo",
+      "phoneNumber": "Numero di telefono",
+      "preferences": "Preferenze",
+      "present": "Presente",
+      "price": "Prezzo",
+      "priceInformationCard": {
+        "devicePrice": "Prezzi dispositivi",
+        "generalPrice": "Prezzi generali"
+      },
+      "questionnaire": "Questionario",
+      "questionnaires": {
+        "dyspnea": "Livello affaticamento",
+        "leg_swelling": "Gonfiore alle gambe"
+      },
+      "reason": "Motivo",
+      "region": "Provincia",
+      "regular": "Regolare",
+      "relation": "Relazione",
+      "report": "Report",
+      "reportGenerationLoading": {
+        "description": "Attendi per favore, l’operazione potrebbe richiedere un paio di minuti.",
+        "title": "Stiamo generando il tuo report"
+      },
+      "reportOwner": "Proprietario",
+      "reportPeriod": "Periodo di riferimento",
+      "resolutionReason": "Motivo risoluzione",
+      "resolutionReasons": {
+        "calledUrgentCare": "Chiamato i soccorsi",
+        "deviceError": "Errore dispositivo medico",
+        "notThePatient": "Non è stato il paziente",
+        "other": "Altro",
+        "patientError": "Errore paziente",
+        "resolvedByAt": "Risolto da {{doctor}} il {{date}} alle {{hour}}",
+        "resolvedByDoctor": "Risolto dal medico"
+      },
+      "role": "Ruolo",
+      "secondSelectedDaySection": "Orario 2",
+      "seeOurBlog": "Scopri il telemonitoraggio",
+      "select": {
+        "patient": "Scegli paziente"
+      },
+      "selectDate": "Seleziona date",
+      "selectPreferences": "Seleziona Preferenze",
+      "serialNumber": "Serial number",
+      "setup_fee": "Attivazione",
+      "shippingAddress": "Indirizzo di spedizione",
+      "shippingNotes": "Note spedizione",
+      "showLess": "Mostra meno",
+      "showMore": "Mostra altri {{number}}",
+      "simNumber": "Numero Sim",
+      "simPin": "Sim PIN",
+      "simPuk": "Sim PUK",
+      "smartscale": "Smartscale",
+      "specialization": "Specializzazione",
+      "start": "Inizio",
+      "startDate": "A partire da",
+      "startDateFrequency": "Data indicativa di inizio",
+      "startDateSingle": "Data indicativa",
+      "startedAt": "Data inizio",
+      "startingDate": "Data inizio assunzione",
+      "state": "Stato",
+      "status": "Stato",
+      "street": "Via",
+      "systolic": {
+        "short": "sis"
+      },
+      "table": {
+        "actions": "Azioni"
+      },
+      "tabletBrand": "Marca del tablet",
+      "tabletId": "Tablet ID",
+      "tabletName": "Nome Tablet",
+      "tabletSerialNumber": "Tablet SN",
+      "tag": {
+        "alert": "Alert",
+        "note": "Nota"
+      },
+      "taxCode": "Codice fiscale",
+      "tc": "Termini e condizioni",
+      "televisit": {
+        "cardiology_appointment": "Visita Cardiologica",
+        "check_up": "Visita di controllo",
+        "diabetes_consultation": "Visita Diabetologica",
+        "patientFullName": "Televisita con {{patientFullName}}",
+        "televisit": "Televisit",
+        "waitingForParticipant": "In attesa che il partecipante si unisca alla televisita"
+      },
+      "temp": "Temp",
+      "templateName": "Nome Protocollo Soglie Alert",
+      "threshold": {
+        "afib": "Fibrillazione atriale",
+        "diastolic": "Diastolica",
+        "systolic": "Sistolica"
+      },
+      "thresholdAlert": "Soglie Alert",
+      "thresholdMax": "Soglia max.",
+      "thresholdMin": "Soglia min.",
+      "time": "Ora",
+      "title": "Titolo",
+      "total": "Totale",
+      "trackingCode": "Codice tracking",
+      "type": "Tipo",
+      "users": "utenti",
+      "visitHistoryListCard": {
+        "bookingCode": "N. Prenotazione",
+        "examen": "Elenco esami",
+        "report": "Esito e referti",
+        "study": "Immagini",
+        "visualizeReport": "Visualizza referto",
+        "visualizeStudy": "Visualizza immagini"
+      },
+      "vitalParameter": "Parametro vitale",
+      "vitalParameters": {
+        "bloodPressure": "Pressione Arteriosa",
+        "blood_pressure": "Pressione",
+        "dailySteps": "passi al giorno",
+        "diastolic": "Diastolica",
+        "ecg": "ECG Monotraccia",
+        "heartRate": "Frequenza",
+        "heart_rate": "Frequenza Cardiaca",
+        "saturation": "Ossigenazione",
+        "spo2": "Ossigenazione",
+        "step": "Passi",
+        "systolic": "Sistolica",
+        "temperature": "Temperatura",
+        "weight": "Peso"
+      },
+      "weekdays": {
+        "friday": "venerdì",
+        "monday": "lunedì",
+        "saturday": "sabato",
+        "sunday": "domenica",
+        "thursday": "giovedì",
+        "tuesday": "martedì",
+        "wednesday": "mercoledì"
+      },
+      "weight": "Peso",
+      "yes": "Sì",
+      "zipcode": "CAP"
+    },
+    "learnMore": "Scopri di più",
+    "links": {
+      "globalProtocols": {
+        "templates": {
+          "message": "Desideri assegnare a questa organizzazione un protocollo globale Medicilio? <a>Assegna ora</a>"
+        }
+      },
+      "invitationModal": {
+        "redirectToDepartments": "Reparto mancante? Crealo prima nella sezione <a>Reparti</a>, poi torna qui per continuare."
+      },
+      "invitations": {
+        "resendInvitations": "Invia di nuovo",
+        "sendInvitations": "Invita"
+      },
+      "privacyPolicy": "Privacy policy",
+      "shareExternalDoctorCard": {
+        "openSelectGPModal": "Se questo dottore non è più il medico di base, <0>clicca qui per cambiarlo.</0>"
+      },
+      "termsAndConditions": "Termini e condizioni"
+    },
+    "list": {
+      "table": {
+        "reportsPerPage": "Righe per pagina:"
+      }
+    },
+    "location": {
+      "addressTitle": "Inserisci l’indirizzo della visita e il numero civico per prenotare un esame",
+      "button": {
+        "address": "Prenota ora",
+        "edit": "Modificare"
+      },
+      "civicNumber": {
+        "helper_text": "Clicca su continua per procedere"
+      },
+      "error": {
+        "cannot_find_user_location": "Errore durante la lettura della tua posizione.",
+        "civicNumberNotExist": "Il numero civico inserito sembra non esistere. Assicurati che sia corretto e procedi",
+        "empty": "Selezionare un indirizzo",
+        "google_api": "Ops qualcosa è andato storto, prova di nuovo",
+        "helper_text": "Inserisci numero civico per procedere",
+        "missing_building_number": "Inserisci numero civico",
+        "permission_denied": "Problema di geolocalizzazione. Riprova o scrivi l'indirizzo manualmente.",
+        "required": "Seleziona un indirizzo della lista",
+        "zero_results": "Ci dispiace, non abbiamo potuto trovare l'indirizzo richiesto. Modifica la tua ricerca"
+      },
+      "input": {
+        "loading": "Loading...",
+        "placeholder": "es. Via Toscana 1"
+      },
+      "modifyAddress": "Nessun servizio disponibile in questa zona. Modifica l'indirizzo"
+    },
+    "login": {
+      "form": {
+        "activationHint": "Did you activate your account?",
+        "error": {
+          "no": {
+            "try": "Hai superato il numero massimo di tentativi e il tuo account è stato bloccato. Clicca sul link per recuperare la password o chiamaci."
+          },
+          "wrong": {
+            "credentials": "La email o password inserite non sono corrette. Per favore riprova."
+          }
+        },
+        "fields": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "passwordHint": "Password dimenticata?",
+        "signupHint": "Non hai ancora un account? <0>Clicca qui</0>",
+        "submit": "Accedi",
+        "title": "Accedi"
+      },
+      "overlay": {
+        "description": "Inserisci le tue credenziali per entrare in Medicilio.",
+        "title": "Bentornato!"
+      },
+      "register": "Registrati",
+      "registerTagline": "Non hai un account Medicilio?",
+      "to": {
+        "signup": {
+          "attention": {
+            "link": "Non sei ancora registrato?"
+          }
+        }
+      },
+      "toasts": {
+        "unauthorized": "Ops, non siamo riusciti a completare la richiesta, prova di nuovo!"
+      }
+    },
+    "maintenancePage": {
+      "message": "Sito in manutenzione"
+    },
+    "markers": {
+      "maxReportingTime": {
+        "label": "Tempo massimo di refertazione:",
+        "text": "{{number}} giorni"
+      }
+    },
+    "messages": {
+      "invitations": {
+        "resendSuccess": "L'e-mail è stata inviata con successo"
+      }
+    },
+    "meta": {
+      "404": {
+        "description": "La pagina che stai cercando non esiste",
+        "title": "Medicilio - 404"
+      },
+      "bookingDetails": {
+        "description": "Tu prenotazione dettaglio",
+        "title": "Medicilio - Tu prenotazione"
+      },
+      "bookingList": {
+        "description": "Tu Prenotazioni e referti",
+        "title": "Medicilio - Prenotazioni e referti"
+      },
+      "maintenance": {
+        "description": "Sito in manutenzione",
+        "title": "Medicilio - Maintenance"
+      },
+      "requestCallback": {
+        "description": "Carica la prescrizione medica oppure lascia un messaggio per ricevere il preventivo.",
+        "title": "Medicilio | Richiesta preventivo"
+      },
+      "selectService": {
+        "description": "Seleziona il servizio da prenotare",
+        "title": "Seleziona Servizio"
+      },
+      "shareReports": {
+        "description": "Condividiamo i referti con il tuo medico.",
+        "title": "Condividi referti"
+      }
+    },
+    "modal": {
+      "exam": {
+        "notAvailable": {
+          "button": "Ho capito",
+          "description": "Seleziona un altro esame per procedere.",
+          "header": "Purtroppo questo esame non è al momento disponibile"
+        }
+      },
+      "report": {
+        "expiringReport": {
+          "description": "Se hai bisogno di più tempo per completare il referto, clicca sul bottone \"Ho bisogno di tempo\", altrimenti visualizza l'anteprima del referto.",
+          "header": "Il tempo per scrivere il referto sta per scadere.",
+          "mainButton": "Ho bisogno di tempo",
+          "secondaryButton": "Visualizza anteprima"
+        },
+        "notAvailable": {
+          "button": "Torna alla lista referti",
+          "description": "Non sei assegnato a questo referto o il tuo tempo per scriverlo è terminato, se vuoi puoi prendere in carico un altro referto.",
+          "header": "Non puoi completare questo referto."
+        }
+      },
+      "reportDetails": {
+        "finishTeleconsutationSuccess": {
+          "title": "Video consulto terminato"
+        }
+      }
+    },
+    "modals": {
+      "assignGlobalTemplates": {
+        "description": "Quali protocolli desideri assegnare?",
+        "title": "Protocolli globali"
+      },
+      "attachment": {
+        "dropZoneText": "Clicca o trascina qui l’allegato per caricarlo."
+      },
+      "buttons": {
+        "prescription": {
+          "deletePrescription": "Elimina prescrizione"
+        }
+      },
+      "createThresholdGlobalTemplate": {
+        "title": "Crea template soglie globale"
+      },
+      "createThresholdTemplate": {
+        "title": "Crea template soglie"
+      },
+      "deleteAttachment": {
+        "description": "Sei sicuro di volere eliminare questo allegato?",
+        "title": "Elimina l’allegato"
+      },
+      "deletePrescription": {
+        "description": "Sei sicuro di voler eliminare questa prescrizione?",
+        "title": "Elimina prescrizione"
+      },
+      "finishTeleconsultation": {
+        "description": "Terminando il video consulto, non sarà più possibile effettuare la video chiamata con il paziente.",
+        "patientWasNotPresent": "No, non era presente",
+        "patientWasPresent": "Sì, era presente",
+        "title": "Sei sicuro di voler terminare il video consulto?",
+        "wasPatientPresent": "Indica se il paziente era presente durante il video consulto:"
+      },
+      "invitationModal": {
+        "assignAssistant": "Invita assistenti",
+        "assignAssistantDescription": "Puoi invitare nuovi assistenti che verranno aggiunti automaticamente alla tua equipe."
+      },
+      "prescription": {
+        "dropZoneText": "Clicca o trascina la prescrizione qui per caricarla."
+      },
+      "prescriptionList": {
+        "label": "Prescrizione"
+      },
+      "prescriptionSkipConfirmation": {
+        "description": "Conferma che il paziente non possiede la prescrizione, in modo che il CS possa contattarlo.",
+        "title": "Confermi che il paziente non ha la prescrizione?"
+      },
+      "reportSettings": {
+        "description": "Le modifiche verranno applicate a tutti i report futuri di questo paziente.",
+        "title": "Modifica le configurazioni del report"
+      },
+      "resolveAlert": {
+        "multiplePatientDescription": "Stai per risolvere gli alert di <strong>{{patientCount}} pazienti diversi</strong>, di cui <strong>{{redAlertCount}} rossi e {{yellowAlertCount}} gialli.</strong>",
+        "onePatientDescription": "Hai selezionato {{totalAlertCount}} alert rossi di <strong>{{patientName}}.</strong>",
+        "title": "Risolvi alert"
+      },
+      "televisitEnd": {
+        "description": "Indica se il paziente era presente durante la televisita:",
+        "patientNotPresent": "No, non era presente",
+        "patientPresent": "Sì, era presente",
+        "title": "Vuoi uscire dalla televisita?"
+      },
+      "televisitModal": {
+        "create": "Nuova televisita",
+        "update": "Programma televisita"
+      },
+      "updatePathwayTemplatePrice": {
+        "description": "Corrispettivo organizzazione",
+        "title": "Configura prezzi"
+      },
+      "uploadAttachment": {
+        "title": "Allega il file"
+      },
+      "uploadPrescription": {
+        "title": "Clicca o trascina la prescrizione qui per caricarla."
+      }
+    },
+    "navBar": {
+      "header": {
+        "personal": {
+          "area": "Area personale"
+        }
+      }
+    },
+    "noneSelected": {
+      "checkBox": {
+        "label": {
+          "userForm": "Seleziona un’opzione"
+        }
+      }
+    },
+    "noneSelectedError": {
+      "checkBox": {
+        "label": {
+          "userForm": "Devi selezionare un’opzione per proseguire"
+        }
+      }
+    },
+    "notifications": {
+      "alertResolvedSuccess": "Alert risolto con successo",
+      "alertUpdateSuccess": "Alert modificato con successo",
+      "createError": "Errore nella creazione di {{resource}}",
+      "createSuccess": "Creato con successo {{resource}}",
+      "deleteError": "Errore durante l'eliminazione di {{resource}} (codice di stato: {{statusCode}})",
+      "deleteSuccess": "Eliminato con successo {{resource}}",
+      "deviceCreateError": "Errore nella creazione di {{resource}} (codice di stato: {{statusCode}})",
+      "editError": "Errore durante la modifica di {{resource}} (codice di stato: {{statusCode}})",
+      "editSuccess": "{{resource}} modificato con successo",
+      "error": "Errore (codice di stato: {{statusCode}})",
+      "examInfo": {
+        "teleVisit": "Le televisite verranno generate automaticamente e potranno essere programmate in seguito (non oltre la data di termine percorso)."
+      },
+      "importProgress": "Importazione in corso: {{processed}}/{{total}}",
+      "multipleAlertsResolved": "Gli avvisi sono stati risolti",
+      "noteCreateSuccess": "Nota creata con successo",
+      "noteDeletedSuccess": "Nota eliminata con successo",
+      "noteUpdateSuccess": "Nota modificata con successo",
+      "success": "Operazione riuscita",
+      "undoable": "Hai {{seconds}} secondi per annullare"
+    },
+    "openingTimes": "Da Lunedì al Venerdì 8:30 - 18:30<br />Sabato 9:30 - 12:30",
+    "options": {
+      "gender": {
+        "diverse": "Altro",
+        "female": "Femminile",
+        "male": "Maschile"
+      },
+      "reportPeriod": {
+        "biweekly": "Ultime due settimane",
+        "custom": "Personalizzato",
+        "final": "Dall’inizio del percorso",
+        "monthly": "Ultimo mese",
+        "quarterly": "Ultimi 3 mesi",
+        "weekly": "Ultima settimana"
+      }
+    },
+    "organizations": {
+      "organizations": "Utente eliminato con successo."
+    },
+    "pages": {
+      "chats": {
+        "currentUser": "Voi",
+        "deleteMessageModal": "Eliminare questo messaggio?",
+        "fileTypeImage": "Foto",
+        "messageInput": "Inserisci un messaggio",
+        "messageUnavailable": "Messaggio non disponibile",
+        "newMessageNotification": "Nuovi messaggi da allora",
+        "noChat": "Al momento non ci sono chat disponibili.",
+        "repliedTo": "Risposto a",
+        "replyTo": "Rispondere a",
+        "replyToMessage": "Rispondi al messaggio",
+        "statusYesterday": "Ieri",
+        "title": "Chat",
+        "you": "(Voi)"
+      },
+      "error": {
+        "404": "Ci dispiace, la pagina che stai cercando non è disponibile o è stata rimossa.\\nVerifica l’indirizzo o torna alla pagina principale.",
+        "backHome": "Torna alla home",
+        "backLogin": "Torna al login",
+        "fallbackDescription": "Riprova più tardi. Se il problema persiste, contatta il nostro team di supporto all’indirizzo info@medicilio.it o chiamaci al numero +39 0238592676.",
+        "fallbackTitle": "Si è verificato un problema tecnico!",
+        "featureNotEnabledApplicationDescription": "Questa funzionalità non è attualmente disponibile in questa versione dell’applicazione.",
+        "featureNotEnabledOrganizationDescription": "La funzionalità a cui stai tentando di accedere non è attualmente abilitata per il tuo account.\\nSe pensi si tratti di un errore o desideri maggiori informazioni, contatta il nostro team di supporto all’indirizzo info@medicilio.it o chiamaci al +39 0238592676.",
+        "featureNotEnabledTitle": "Funzionalità non disponibile",
+        "loginPatientsDescription": "I pazienti non possono accedere a questa piattaforma, ma devono utilizzare l'App mobile.<br/><br/>Per assistenza, contatta il nostro team di supporto all'indirizzo info@medicilio.it o chiama il numero +39 0238592676.",
+        "loginPatientsTitle": "Accesso non possibile!",
+        "title": "404"
+      },
+      "noPermissionFallback": {
+        "description": "Non hai i permessi necessari per accedere a questa pagina.",
+        "info": "Se ritieni che ci sia un errore, contatta l'amministratore oppure prova ad accedere con un altro account.",
+        "missingPermission": "Permesso mancante",
+        "title": "Accesso negato"
+      }
+    },
+    "pagination": {
+      "page": "Pagina",
+      "perPage": "Righe per pagina",
+      "to": "di"
+    },
+    "password": {
+      "validation": {
+        "medium": "Media",
+        "strong": "Ottima",
+        "tooShort": "Troppo breve",
+        "weak": "Debole"
+      }
+    },
+    "pathway": {
+      "pricing": {
+        "minPrice": "Il prezzo minimo deve essere almeno {{value}}."
+      },
+      "trends": {
+        "noTrends": "Non sono state rilevati trends"
+      }
+    },
+    "pathwayCreate": {
+      "configureAlert": {
+        "save": {
+          "error": "Errore durante il salvataggio delle soglie dei parametri vitali. Riprova o contatta il supporto.",
+          "success": "Soglie dei parametri vitali salvate"
+        }
+      },
+      "configureAlertStep": {
+        "thresholdDetails": {
+          "empty": "Seleziona un modello per vedere i dettagli."
+        }
+      },
+      "confirmChangesModal": {
+        "description": "Sei sicuro di voler continuare?",
+        "title": "Se cambi protocollo, perderai tutte le modifiche effettuate."
+      },
+      "confirmEmptyThresholdsModal": {
+        "description": "Se procedi senza inserire alert non potrai ricevere nessun alert automatico in caso di valori anomali o critici del paziente. Vuoi procedere?",
+        "title": "Stai creando un percorso senza impostare alert"
+      },
+      "selectPathwayStep": {
+        "actions": {
+          "empty": "Nessun dato inserito. Una volta aggiunto, lo vedrai qui."
+        },
+        "examCard": {
+          "startDateFrom": "a partire dal"
+        },
+        "pathwayDetails": {
+          "empty": "Seleziona un protocollo o crea un nuovo piano di cura da zero."
+        },
+        "save": {
+          "error": "Aggiornamento della bozza del piano di cura non riuscito. Riprova o contatta il supporto.",
+          "success": "Bozza del piano di cura aggiornata con successo."
+        },
+        "template": {
+          "info": {
+            "description": "Le modifiche non sovrascrivono il protocollo originale, ma verranno salvate come nuovo protocollo personalizzato.",
+            "title": "Hai apportato delle modifiche al protocollo"
+          }
+        },
+        "templateSelector": {
+          "personalized": "Protocollo personalizzato"
+        }
+      },
+      "selectPatientStep": {
+        "patientDetails": {
+          "empty": "Seleziona un paziente per vedere i dettagli."
+        }
+      },
+      "summaryStep": {
+        "priceCard": {
+          "patientSection": {
+            "sectionTitle1": "Corrispettivo Medicilio",
+            "sectionTitle2": "Corrispettivo del medico",
+            "sectionTitle3": "Totale",
+            "title": "A carico del paziente"
+          },
+          "title": "Dettaglio prezzi"
+        },
+        "save": {
+          "error": "Si è verificato un errore durante la conferma e l'invio del piano di cura per questo paziente. Riprova e, se il problema persiste, contatta il supporto."
+        }
+      }
+    },
+    "pathwayDrug": {
+      "edit": {
+        "newDrug": "Nuovo farmaco"
+      }
+    },
+    "pathwayExam": {
+      "edit": {
+        "newExam": "Nuovo esame"
+      }
+    },
+    "pathwayHistoryTab": {
+      "addNoteModal": {
+        "title": "Aggiungi una nuova nota"
+      }
+    },
+    "pathwayQuestionnaire": {
+      "edit": {
+        "newQuestionnaire": "Nuovo questionario"
+      }
+    },
+    "pathwayTrends": {
+      "card": {
+        "empty": "Nessuna misurazione trovata nelle date impostate. Prova a modificare l'intervallo temporale."
+      }
+    },
+    "pathwayVitalParameter": {
+      "edit": {
+        "newVitalParameter": "Nuovo parametro vitale"
+      }
+    },
+    "patient": {
+      "birthDate": {
+        "title": "Data di nascita"
+      },
+      "telephone": {
+        "title": "N. telefono"
+      }
+    },
+    "patientHistory": {
+      "empty": {
+        "state": "<0>Nessun esame trovato</0> <1>Questo paziente non ha eseguito altri esami con Medicilio.</1>"
+      }
+    },
+    "patientShow": {
+      "tabs": {
+        "pathways": {
+          "restrictedPathway": "Non sono stati trovati piani di cura per questo paziente a cui hai accesso. È possibile che esistano piani di cura creati da altri utenti per i quali non hai le autorizzazioni necessarie alla visualizzazione."
+        }
+      }
+    },
+    "patients": {
+      "patients": "I dati sono stati aggiornati con successo"
+    },
+    "paymentActivity": {
+      "bankDetails": "<0>Di seguito riepiloghiamo le Coordinate bancarie su cui effettuare il bonifico:</0> <1>IBAN: IT30X0306909400100000072576</1><2>C/C intestato a: Cantieri Digitali Medtech S.r.l.</2><3>Preghiamo di specificare il codice di prenotazione nella causale.</3>",
+      "onSite": {
+        "success": "<0>Pagamento {{paymentType}}</0>Pagamento effettuato con successo."
+      },
+      "paymentMessage": "<0>Pagamento {{paymentType}}</0><1>Metodo di pagamento: <strong>{{paymentMethod}}</strong></1><2>Stato pagamento: <strong>{{paymentStatus}}</strong></2>",
+      "paymentStatus": {
+        "failed": "Fallito",
+        "isPaid": "Pagato",
+        "pending": "Da pagare"
+      },
+      "paymentType": {
+        "applePay": "Apple Pay",
+        "bankTransfer": "Bonifico bancario",
+        "card": "Carta di credito",
+        "cash": "Cash",
+        "invoice": "Fattura",
+        "link": "Link"
+      }
+    },
+    "placeholder": {
+      "alertResolveCard": {
+        "performedAction": "Es. Chiamato il paziente, modificato le soglie..."
+      },
+      "autocomplete": "Inserire l'indirizzo completo",
+      "endDate": "Data fine",
+      "enter": {
+        "dailySteps": "Inserisci passi giornalieri",
+        "note": "Scrivere una nota",
+        "noteDescription": "Scrivi una descrizione o tocca l'icona audio per usare la dettatura vocale",
+        "noteDrugs": "Es. Mattina a digiuno. La sera dopo cena alle 9",
+        "serialNumber": "Inserisci Serial Number",
+        "shippingAddress": "Inserisci indirizzo di spedizione",
+        "shippingNotes": "Scrivi qui una nota sulla spedizione",
+        "trackingCode": "Scrivi qui il codice tracking"
+      },
+      "fullName": {
+        "patientFilter": "Cerca paziente"
+      },
+      "search": {
+        "bookingCode": "N. Prenotazione",
+        "departmentName": "Cerca nome reparti",
+        "doctor": "Cerca dottore",
+        "email": "Cerca e-mail",
+        "fullName": "Cerca paziente",
+        "label": "Cerca nome organizzazione",
+        "name": "Cerca Nome",
+        "pathway": "Cerca piano di cura",
+        "patient": "Cerca paziente",
+        "patientName": "Cerca paziente",
+        "prefix": "Cerca {{value}}",
+        "taxCode": "Cerca codice fiscale",
+        "templateName": "Cerca protocollo soglie alert"
+      },
+      "select": {
+        "assigned_to_doctors": "Seleziona stato di assegnazione",
+        "assistant": "Associa assistenti",
+        "date": "Seleziona data",
+        "dayTime": "Seleziona orario",
+        "deviceInstance": "Seleziona serial number",
+        "deviceType": "Seleziona dispositivo",
+        "doctor": "Cerca dottore",
+        "doseQuantity": "Seleziona dose",
+        "drug": "Seleziona farmaco",
+        "endDate": "Seleziona data fine",
+        "exam": "Seleziona esame",
+        "frequency": "Seleziona frequenza",
+        "measurement": {
+          "type": "Seleziona una tipologia"
+        },
+        "measurement_type": "Seleziona una tipologia",
+        "noteCategory": "Seleziona categoria",
+        "organization": "Seleziona organizzazione",
+        "pathology": "Seleziona patologia",
+        "pathwayStatus": "Seleziona stato",
+        "pathwayTemplate": "Seleziona protocollo",
+        "patient": "Cerca paziente",
+        "questionnaire": "Seleziona questionario",
+        "reason": "Motivo",
+        "reportName": "Seleziona nome",
+        "reportPeriod": "Seleziona arco temporale",
+        "reportStatus": "Seleziona stato di referto",
+        "startDate": "Seleziona data inizio",
+        "status": "Seleziona stato di visita",
+        "time": "Seleziona ora",
+        "type": "Seleziona tipologia",
+        "upcomingVisit": "Seleziona stato di visita",
+        "user_roles": "Seleziona ruolo",
+        "user_status": "Seleziona stato",
+        "vitalParameter": "Seleziona un parametro vitale",
+        "weekDay": "Seleziona giorno"
+      },
+      "selectOption": "Seleziona un'opzione",
+      "startDate": "Data inizio"
+    },
+    "prescriptionSection": {
+      "prescriptionList": {
+        "description": "La prescrizione è stata caricata con successo ed è in attesa di approvazione da parte del medico.<0>Puoi sostituire la prescrizione o aggiungere altri allegati se necessario.</0>",
+        "title": "Prescrizione medica caricata!",
+        "uploadButton": "Aggiungi prescrizione"
+      }
+    },
+    "proItinerary": {
+      "activatePopup": {
+        "paragraph": "Hai bisogno di attivare questa visita? Scrivi qui sotto il motivo della tua richiesta e procedi.",
+        "textarea": {
+          "placeholder": "Perché vuoi attivare la visita?"
+        },
+        "title": "Attiva visita"
+      },
+      "activity": {
+        "btn": "Fine visita",
+        "confirm_exams": {
+          "require_payment": "Ricarica la pagina, il paziente dovrà pagare la differenza.",
+          "require_refund": "Rimborso necessario. Ricorda di specificarlo nelle note.",
+          "updated_exams": "Esami aggiornati."
+        },
+        "description": "Svolgi tutte le attività seguenti al fine di completare correttamente la visita.",
+        "descriptionBtn": "Quando le attività saranno completate, potrai terminare la visita",
+        "items": {
+          "anamnesis": "Dati anamnestici",
+          "collect_patient_info": "Raccogli info pazienti",
+          "concludi_visita": "Concludi visita",
+          "conduct_exam": "Condurre l’esame",
+          "confirm_exams": "Verifica esami",
+          "confirm_patient_details": "Dati del paziente",
+          "confirm_payment": "Pagamento {{price}}€",
+          "medical_prescription": "Conferma la prescrizione",
+          "patient_identity_verification": "Verifica dati paziente",
+          "start_visit": "Inizia la visita",
+          "track_vital_parameters": "Rilevazione Parametri Vitali",
+          "user_source_verification": "Fonte di prenotazione",
+          "worklist_sync": "Sincronizza dell'elenco di lavoro",
+          "workstation_sync": "Sincronizza workstation"
+        },
+        "medicalData": {
+          "existing": "<0>Anamnesi confermata</0> Se hai bisogno di controllare o modificare i dati anamnestici <1>Clicca qui</1>",
+          "existingDescription": "Se hai bisogno di controllare o modificare i dati anamnestici",
+          "existingTitle": "Anamnesi confermata",
+          "refresh": "<0>La procedura può durare fino a due minuti. <1> Ricarica </1> la pagina per proseguire.</0>"
+        },
+        "medicalDataForm": {
+          "diagnosticQuestion": {
+            "hintText": "Trascrivere quesito diagnostico riportato sulla richiesta medica",
+            "label": "Quesito diagnostico"
+          },
+          "examination": {
+            "hintText": "Inserire i dati di esposizione visualizzati durante l’esame",
+            "label": "Esposizione durante l’esame"
+          },
+          "radio": {
+            "descriptionOne": "Esame eseguito al domicilio del paziente e refertato in teleradiologia.",
+            "descriptionTwo": "Esame Covid positivo eseguito a domicilio nel rispetto del protocollo condiviso e con l’adozione delle misure di protezione individuali richieste dalla normativa.",
+            "title": "Tecnica"
+          },
+          "submit": "Inserisci anamnesi",
+          "technicalHistory": {
+            "hintText": "Descrivere informazioni raccolte sull’anamnesi del paziente (interventi chirurgici, patologie correlate, ecc.) ed eventuali note sull’esecuzione dell’esame (paziente allettato, seduto, ecc.)",
+            "label": "Anamnesi tecnica"
+          },
+          "uploadFile": {
+            "drop": "Trascina qui uno o più file oppure se preferisci selezionali dal dispositivo.",
+            "dropAction": "Trascina qui un’immagine",
+            "error": {
+              "multiple": "Errori durante il caricamento dei file, i formati supportati sono jpeg, png e pdf.",
+              "single": "Errore durante il caricamento del file, i formati supportati sono jpeg, png e pdf."
+            },
+            "noFileUploaded": "Carica eventuali allegati necessari. Saranno condivisi con il dottore.",
+            "success": {
+              "multiple": "Files caricati con successo",
+              "single": "File caricato con successo."
+            },
+            "title": "Eventuali allegati"
+          }
+        },
+        "patient_info": {
+          "existing": "<0>Anamnesi confermata</0> Puoi controllare o modificare le informazioni sul paziente qui <1>Clicca qui</1>"
+        },
+        "payment": {
+          "activityNote": "Ricorda di completare il pagamento su Sumup prima di procedere.",
+          "cardPayment": {
+            "isNotPaid": "Pagamento con carta di credito",
+            "isPaid": "Pagato <0>con carta di credito</0>"
+          },
+          "cashPayment": {
+            "isNotPaid": "Pagamento <0>in contanti</0> richiesto",
+            "isPaid": "Pagato <0>in contanti</0>"
+          },
+          "description": "Seleziona se il pagamento è andato a buon fine o se non è stato effettuato.",
+          "failedDescription": "Prova di nuovo o termina la visita senza pagare.",
+          "failedTitle": "Pagamento non effettuato",
+          "noteHeader": "<0>Note aggiuntive</0> <1>(Facoltativo)</1>",
+          "notePlaceholder": "Il paziente non ha la carta di credito.",
+          "offline": "<0>Pagamento offline</0> Il paziente ha deciso di pagare con bonifico.",
+          "on_site": "<0>Pagamento effettuato correttamente con carta di credito</0> la transazione è andata a buon fine.",
+          "online": "<0>Pagato online</0> Il paziente ha scelto di pagare online.",
+          "paymentLink": {
+            "isNotPaid": "Pagato tramite <0>link</0>",
+            "isPaid": "Pagato tramite <0>link</0>"
+          },
+          "price": "{{price}}€",
+          "successTitle": "Pagamento effettuato",
+          "title": "Pagamento"
+        },
+        "prescription": {
+          "existing": "<0>Prescrizione confermata</0> la prescrizione è stata aggiunta correttamente. Per visualizzarla <1>Clicca qui</1>"
+        },
+        "prescriptionAlert": {
+          "description": "Caricala prima di eseguire l’esame. Se il paziente non possiede la prescrizione, <0>salta questo passaggio.</0>",
+          "title": "Nessuna prescrizione"
+        },
+        "prescriptionList": {
+          "description": "Prescrizione in attesa di approvazione dal medico"
+        },
+        "reload": {
+          "page": "<0>Aggiorna la pagina</0> La procedura può richiedere fino a due minuti. <1>Ricarica la pagina per proseguire.</1>"
+        },
+        "sync": {
+          "error": "Sincronizzazione non riuscita.",
+          "intializePostdicom": "Connessione con postdicom in corso",
+          "loading": "Attendi un momento e non ricaricare la pagina.",
+          "success": "Sincronizzazione effettuata con successo."
+        },
+        "title": "Attività"
+      },
+      "additionalNote": "Altre informazioni",
+      "callHelp": "Chiama l’assistenza",
+      "callPatient": "Chiama il paziente",
+      "departments": {
+        "CARDIO": "Visita Cardiologica",
+        "COVID": "Test covid",
+        "DENTA": "Igiene dentale",
+        "DERMA": "Visita Dermatologica",
+        "ECO": "Visita Ecografica",
+        "FISIO": "Visita Fisioterapica",
+        "LABO": "Analisi di laboratorio",
+        "RADIO": "Visita Radiologica"
+      },
+      "headerCallHelp": "Se desideri cancellare o apportare modifiche, chiamaci! </br> <strong>Il codice della prenotazione è:</strong>",
+      "locationButton": "Visualizza la strada",
+      "modifyExams": "Modifica esami",
+      "nextDaysContent": "Puoi vedere tutte le visite in programma per domani dalle ore 19:00 odierne.",
+      "nextDaysTitle": "Prossimi giorni",
+      "note": "Scrivici un messaggio.",
+      "or": "Oppure",
+      "stopType": {
+        "depot": "<strong> Deposito </strong>",
+        "equipment_dropoff": "Riconsegna l'attrezzatura"
+      },
+      "success": {
+        "description": "La visita è stata completata con successo e tutte le informazioni sono state sincronizzate e archiviate correttamente.",
+        "title": "Visita completata con successo"
+      },
+      "successBtn": "Torna alla pagina principale",
+      "switch": {
+        "done": "Concluse",
+        "today": "Da fare",
+        "upcoming": "Prossime"
+      },
+      "title": "Visite",
+      "visitDetail": {
+        "RefferralAndAuthorizedPartner": "<strong> Partner riferimento e autorizzato: </strong>",
+        "additionalNotes": "<strong> Note: </strong>",
+        "address": "<strong> Indirizzo: </strong>",
+        "authorizedPartner": "<strong> Partner autorizzato: </strong>",
+        "booking": "<strong> N. Prenotazione: </strong>",
+        "exams": "<strong> Esami: </strong>",
+        "note": "<strong> Note: </strong>",
+        "otherInfo": "<strong> Altre info:</strong>",
+        "patient": "<strong> Paziente: </strong>",
+        "phone": "<strong>N. telefono:</strong>",
+        "referralPartner": "<strong> Partner riferimento: </strong>"
+      }
+    },
+    "proVisit": {
+      "careGiver": {
+        "checkBox": {
+          "label": {
+            "userForm_copy": "Un Caregiver (presta assistenza al paziente)"
+          }
+        }
+      },
+      "company": {
+        "checkBox": {
+          "label": {
+            "userForm_copy": "Una società"
+          }
+        }
+      },
+      "isRelative": {
+        "checkBox": {
+          "label": {
+            "userForm_copy": "Un parente"
+          }
+        }
+      },
+      "sUser": {
+        "checkBox": {
+          "label": {
+            "userForm_copy": "Il paziente stesso"
+          }
+        }
+      },
+      "selectorTitle": {
+        "createPatient": {
+          "Form_copy": "Chi ha eseguito la prenotazione?"
+        }
+      },
+      "updateVariant": {
+        "examsConfirmed": "Esami Confermati.",
+        "noAction": "Varianti aggiornate!",
+        "requirePayment": "Varianti aggiornate! Ricarica la pagina, il paziente dovrà pagare la differenza.",
+        "requireRefund": "Varianti aggiornate! Rimborso necessario. Ricorda di specificarlo nelle note."
+      }
+    },
+    "profile": {
+      "accountData": "Dati dell'account",
+      "edit": {
+        "header": "Modifica i dati dell’account",
+        "modal": {
+          "text": "Le modifiche andranno perse. Vuoi chiudere senza salvare?"
+        },
+        "placeholderLabel": {
+          "email": "Email",
+          "firstName": "Nome",
+          "lastName": "Cognome",
+          "mobile": "Numero di telefono",
+          "taxCode": "Codice fiscale"
+        }
+      },
+      "header": "Account",
+      "labels": {
+        "email": "E-Mail",
+        "taxCode": "C.F.",
+        "tel": "Tel"
+      },
+      "patientData": "Dati del paziente"
+    },
+    "proitinerary": {
+      "activity": {
+        "payment": {
+          "failed": "<0>Pagamento non effettuato con carta di credito</0> la transazione non è andata a buon fine.Controlla che il paziente non abbia richiesto una modifica nella modalità di pagamento e riprova.",
+          "notFinished": "<0>Pagamento non effettuato</0> Ricorda di completare il pagamento su Sumup prima di procedere"
+        }
+      },
+      "stop": {
+        "status": {
+          "activated": "Attivata",
+          "active": "Da fare",
+          "done": "Conclusa",
+          "spillover": "Visite precedenti",
+          "upcoming": "Prossime"
+        },
+        "viewFullItinerary": "Visualizza itinerario completo"
+      }
+    },
+    "radio": {
+      "confirmIsGP": {
+        "isGP": "Sì, è il medico di base",
+        "isNotGP": "No, non è il medico di base"
+      }
+    },
+    "reportContent": {
+      "section": {
+        "clinicalSummary": {
+          "title": "Sintesi clinica"
+        },
+        "doctorRecommendation": {
+          "title": "Valutazioni e raccomandazioni del medico"
+        },
+        "drugs": {
+          "title": "Terapia e aderenza"
+        },
+        "exams": {
+          "title": "Esami e contatti clinici"
+        },
+        "questionnaires": {
+          "title": "Questionari"
+        }
+      }
+    },
+    "reportFrequencies": {
+      "biweekly": "Quindicinale",
+      "custom": "Personalizzato",
+      "final": "Finale",
+      "monthly": "Mensile",
+      "quarterly": "Trimestrale",
+      "weekly": "Settimanale"
+    },
+    "requestAccess": {
+      "btn": "Accesso",
+      "description": "Inserisci la password che hai ricevuto via email",
+      "title": "Accedi al servizio"
+    },
+    "requestCallback": {
+      "alternative": "oppure",
+      "btn": "Chiedi preventivo",
+      "customerPrivacyPolicy": "Presto il mio consenso a essere ricontattato nel rispetto dell'<0>informativa Privacy del Customer Service</0> ",
+      "fields": {
+        "additionalNotes": "Messaggio es.\\nho bisogno dei seguenti esami: ferro, potassio, Gamma GT...",
+        "address": "Indirizzo",
+        "email": "E-mail",
+        "phoneNumber": "Numero di telefono"
+      },
+      "header": "Richiesta preventivo",
+      "modalSuccess": {
+        "subtitle": "Esamineremo la tua richiesta e ti chiameremo appena il preventivo sarà pronto.",
+        "title": "Richiesta inviata"
+      },
+      "privacyPolicy": "Ho letto e presto il mio consenso al trattamento dei miei dati secondo quanto previsto dall'<0>Informativa Privacy</0>",
+      "subheader": "Compila il modulo online. Carica la prescrizione medica oppure lascia un messaggio per ricevere il preventivo.",
+      "termsAndConditions": "Dichiaro di aver letto e accetto i <0>T&C</0>",
+      "uploadPrescription": "Carica la prescrizione medica",
+      "uploadSuccessful": "Prescrizione caricata con successo!"
+    },
+    "reset": {
+      "password": {
+        "form": {
+          "error": {
+            "new": {
+              "password": "La nuova password non può essere uguale alla precedente"
+            }
+          }
+        },
+        "redirect": {
+          "login": "Accedi"
+        }
+      },
+      "patientData": {
+        "form": "Annulla"
+      }
+    },
+    "resetPassword": {
+      "description": "Inserisci la nuova password che utilizzerai per accedere a Medicilio.",
+      "newEmailSuccess": {
+        "btn": "Torna alla pagina di accesso",
+        "description": "Controlla la tua casella e-mail e completa l’attivazione del profilo. Se non hai ricevuto l’e-mail, controlla nella cartella di posta indesiderata.",
+        "title": "Nuovo link reset password successo"
+      },
+      "sendNewEmail": {
+        "btn": "Richiedi nuovo link",
+        "description": "Clicca sul bottone “richiedi nuovo link” per ricevere l’e-mail con un nuovo link valido per cambiare la password.  ",
+        "title": "Link di cambio password scaduto"
+      },
+      "success": {
+        "description": "Ricordati di annotare la nuova password, ti verrà chiesta per accedere a Medicilio.",
+        "title": "Password creata con successo!"
+      },
+      "title": "Cambia la password"
+    },
+    "resource": {
+      "device": {
+        "name": "Dispositivo"
+      },
+      "drug": {
+        "name": "farmaci"
+      },
+      "emergencyContact": {
+        "name": "contatti di emergenza"
+      },
+      "exam": {
+        "name": "esame"
+      },
+      "healthInformation": {
+        "name": "informazioni mediche"
+      },
+      "organizationDoctor": {
+        "name": "Info medico"
+      },
+      "organizationInformation": {
+        "name": "info organizzazione"
+      },
+      "organizationPaymentInformation": {
+        "name": "fatturazione"
+      },
+      "organizationSetting": {
+        "name": "impostazioni"
+      },
+      "pathway": {
+        "name": "piano di cura"
+      },
+      "pathwayDevicesInformation": {
+        "name": "Dispositivi"
+      },
+      "pathwayNetworkInformation": {
+        "name": "informazioni network"
+      },
+      "pathwayShippingInformation": {
+        "name": "Spedizione"
+      },
+      "patientInformation": {
+        "name": "dati anagrafici"
+      },
+      "pricingInformation": {
+        "name": "prezzi"
+      },
+      "questionnaire": {
+        "name": "questionario"
+      },
+      "setting": {
+        "name": "impostazioni"
+      },
+      "vitalParameter": {
+        "name": "parametro vitale"
+      },
+      "warehouse": {
+        "name": "Warehouse"
+      }
+    },
+    "resources": {
+      "invitation": {
+        "name": "invito"
+      },
+      "organization": {
+        "name": "organizzazione"
+      }
+    },
+    "roles": {
+      "assistant": {
+        "label": "Assistente"
+      },
+      "customer": "Paziente",
+      "department_assistant_head": {
+        "label": "Coordinatore Infermieristico"
+      },
+      "department_doctor_head": {
+        "label": "Direttore"
+      },
+      "doctor": "Dottore",
+      "external_doctor": "Dottore (esterno)",
+      "independent_practice": {
+        "label": "Dottore Indipendente"
+      },
+      "medicilio_admin": {
+        "label": "Medicilio Admin"
+      },
+      "medicilio_customer_support": {
+        "label": "Centro Servizi"
+      },
+      "operations": {
+        "label": "Operazioni"
+      },
+      "organization_admin": {
+        "label": "Admin Organizzazione"
+      },
+      "patient": {
+        "label": "Paziente"
+      },
+      "sales": {
+        "label": "Medicilio Sales"
+      },
+      "tech": {
+        "label": "Sviluppatore"
+      },
+      "technician": "Tecnico"
+    },
+    "seedingData": {
+      "delete": {
+        "success": "Eliminazione dati demo avviata. Operazione in corso."
+      },
+      "generation": {
+        "success": "Generazione dati demo avviata. Operazione in corso.\\n"
+      }
+    },
+    "select": {
+      "patientListFilter": {
+        "examStatus": {
+          "complete": "Completato",
+          "notRequired": "Non Richiesta",
+          "notUploaded": "Mancante"
+        }
+      }
+    },
+    "selectGPSuccess": {
+      "success": {
+        "text": "Medico di base inserito con successo!"
+      }
+    },
+    "selectorTitle": {
+      "createPatient": {
+        "Form": "Che relazione hai con il paziente?"
+      },
+      "pro": {
+        "createPatient": {
+          "Form": "Chi ha eseguito la prenotazione?"
+        }
+      }
+    },
+    "settings": {
+      "checkboxesTitle": "Quali sezioni desideri includere?",
+      "reports": {
+        "chatSupport": "Chat di supporto medico",
+        "checkboxesTitle": "Quali parti desideri includere?",
+        "frequency": {
+          "biweekly": "Ogni due settimane",
+          "eop": "Alla fine del percorso",
+          "monthly": "Ogni mese",
+          "quarterly": "Ogni 3 mesi",
+          "weekly": "Ogni settimana"
+        },
+        "pathwayElements": {
+          "alerts": "Alert",
+          "doctorRecommendation": "Valutazioni e raccomandazioni del medico",
+          "drugs": "Terapia e aderenza",
+          "exams": "Esami e contatti clinici",
+          "questionnaires": "Questionari",
+          "summary": "Sintesi clinica",
+          "title": "Elementi del percorso"
+        },
+        "reportFrequency": "Frequenza",
+        "requireOrgId": "Richiedi ID organizzazione",
+        "selectAll": "Seleziona tutto",
+        "selectPreferences": "Seleziona preferenze",
+        "title": "Configurazioni report",
+        "vitalParameters": {
+          "title": "Parametri vitali"
+        }
+      },
+      "selectPreferences": "Seleziona preferenze",
+      "selectTitle": "Impostazioni"
+    },
+    "shareReports": {
+      "bookingDetails": {
+        "manage": {
+          "already": {
+            "shared": "I referti di {{patient}} sono condivisi con i medici:"
+          },
+          "button": "Gestisci condivisione",
+          "sharing": {
+            "description": "Se desideri che Medicilio interrompa l’invio dei referti, o se desideri inviare i referti anche a un altro medico, clicca sul bottone “Gestisci condivisione”"
+          }
+        },
+        "title": "Se lo desideri, puoi condividere i referti con il medico."
+      },
+      "doctorSelection": {
+        "addDoctor": "Aggiungi dottore",
+        "consent": "Esprimo il mio consenso a condividere le mie informazioni con il professionista selezionato.",
+        "consentError": "Accetta il consenso per procedere.",
+        "description": "Il medico selezionato riceverà tutti i referti di {{patient}}.",
+        "doctor": "Dottore",
+        "next": {
+          "button": "Conferma e condividi"
+        },
+        "title": "Seleziona o aggiungi un medico."
+      },
+      "instructions": {
+        "button": {
+          "booking": "Prenota esame",
+          "share": "Condividi referti"
+        },
+        "description": {
+          "noBookings": "Possiamo inviare i referti, presenti nella piattaforma, direttamente al tuo medico. <br /> Prima, però, devi prenotare un esame o una visita medica.",
+          "withBookings": "Non devi più preoccuparti di inviare manualmente i tuoi referti al medico. <br /> Medicilio invierà i referti, presenti nella piattaforma, direttamente ai dottori da te indicati. Basta aggiungere o selezionare il medico, al resto pensiamo noi."
+        },
+        "title": "Condividiamo i referti con il tuo medico."
+      },
+      "manageSharing": {
+        "button": {
+          "addNewDoctor": "Aggiungi nuovo dottore"
+        },
+        "description": "Medicilio invia i referti ai seguenti dottori:",
+        "emptyState": "Non hai ancora selezionato alcun medico. Aggiungi un medico a cui Medicilio invierà i referti. Puoi interrompere la condivisione dei referti in qualsiasi momento.",
+        "revoke": {
+          "modal": {
+            "description": "Tutti i referti, caricati sulla piattaforma Medicilio, non verranno più inviati a questo dottore.",
+            "title": "Vuoi interrompere la condivisione dei referti con {{doctor}} ?"
+          },
+          "success": {
+            "message": "Condivisione referti interrotta."
+          }
+        },
+        "stop": {
+          "sharing": "Interrompi condivisione"
+        },
+        "title": "Condivisione referti di {{patient}}"
+      },
+      "patientSelection": {
+        "title": "Scegli il paziente di cui vuoi condividere o gestire i referti."
+      },
+      "selectDoctor": {
+        "noDataFound": "Nessun dottore trovato, aggiungi nuovo dottore",
+        "placeholder": "Scrivi il nome del medico"
+      },
+      "success": {
+        "button": {
+          "visitDetails": "Torna alla visita"
+        }
+      },
+      "successAndError": {
+        "error": {
+          "description": "Per favore riprova e, se il problema persiste, contattaci.",
+          "title": "Si è verificato un problema con la condivisione del referto."
+        },
+        "success": {
+          "button": "Vai ai miei appuntamenti",
+          "description": "Da questo momento tutti i referti medici del paziente verranno condivisi con il dottore indicato.",
+          "title": "I referti di {{patient}} saranno condivisi con successo."
+        }
+      },
+      "visitDetails": {
+        "already": {
+          "shared": "Se il paziente lo desidera, possiamo inviare i referti direttamente al suo medico."
+        },
+        "description": "Se il paziente lo desidera, possiamo inviare i referti direttamente al suo medico."
+      }
+    },
+    "showPassword": {
+      "checkBox": {
+        "Label": "Mostra password"
+      }
+    },
+    "sideBar": {
+      "accordion": {
+        "historyList": {
+          "attachmentLink": "Visualizza allegato",
+          "examenLink": "Immagini esame",
+          "prescriptionLink": "Prescrizione medica",
+          "reportLink": "referto",
+          "uploadLink": "Carica documento"
+        }
+      },
+      "items": {
+        "alert": {
+          "list": "Alerts"
+        },
+        "chat": {
+          "list": "Chat"
+        },
+        "dashboard": "Dashboard",
+        "doctorAssistants": "Equipe",
+        "measurements": "Misurazioni",
+        "organization": {
+          "list": "Organizzazioni"
+        },
+        "organizationAdmin": "Admin",
+        "pathway": {
+          "list": "Piani di cura"
+        },
+        "patient": {
+          "list": "Anagrafica"
+        },
+        "warehouse": {
+          "list": "Warehouse"
+        }
+      }
+    },
+    "signup": {
+      "check": {
+        "privacy": {
+          "and": {
+            "tc": "Ho letto e compreso <0> l’informativa privacy </0> e i <1> T&C </1>"
+          },
+          "policy": "Ho letto <0> l’informativa privacy </0> e presto il mio consenso "
+        },
+        "tc": "Ho letto e compreso i <0> T&C del servizio </0>"
+      },
+      "clickHere": "Clicca qui",
+      "form": {
+        "consent": {
+          "privacyLink": "l’informativa privacy",
+          "termsLink": "T&C"
+        },
+        "email": {
+          "placeholder": "Indirizzo email",
+          "unique": "Indirizzo e-mail già registrato. Forse volevi accedere?"
+        },
+        "firstName": {
+          "placeholder": "Nome"
+        },
+        "lastName": {
+          "placeholder": "Cognome"
+        },
+        "marketing": {
+          "label": "Acconsento a ricevere comunicazioni e aggiornamenti sui servizi prestati"
+        },
+        "password": {
+          "placeholder": "Password"
+        },
+        "phone": {
+          "placeholder": "Telefono"
+        },
+        "submit": "Prosegui",
+        "taxCode": {
+          "invalid": "Codice fiscale non valido",
+          "placeholder": "Codice Fiscale",
+          "unique": "Questo codice fiscale è già registrato"
+        },
+        "validation": {
+          "minLength": "La password deve contenere almeno {{characters}} caratteri",
+          "pattern": "Indirizzo email non valido",
+          "required": "Questo campo è obbligatorio"
+        }
+      },
+      "loginLink": "Sei già registrato?",
+      "marketing": {
+        "stepOne": "Registrati e crea il tuo profilo personale",
+        "stepThree": "Controlla gli appuntamenti e i referti in un unico posto",
+        "stepTwo": "Completa la prenotazione in pochi secondi",
+        "title": "Prenota online in pochi click!"
+      },
+      "redirect": {
+        "login": "Accedi"
+      },
+      "registrationSuccess": {
+        "content": "Registrazione effettuata con successo! Ricordati di salvare la password che hai appena utilizzato per registrarti, ti verrà chiesta nuovamente per accedere a Medicilio.",
+        "title": "Registrazione effettuata"
+      },
+      "title": "Registrati e prenota"
+    },
+    "specializations": {
+      "cardiologist": {
+        "label": "Cardiologo"
+      },
+      "diabetologist": {
+        "label": "Diabetologo"
+      },
+      "gp": {
+        "label": "MMG"
+      },
+      "gynecologist": {
+        "label": "Ginecologo"
+      },
+      "internist": {
+        "label": "Internista"
+      },
+      "nephrologist": {
+        "label": "Nefrologo"
+      },
+      "orthopedist": {
+        "label": "Ortopedico"
+      },
+      "other": {
+        "label": "Altro"
+      },
+      "pulmonogist": {
+        "label": "Pneumologo"
+      }
+    },
+    "status": {
+      "active": "Attivo",
+      "alert": {
+        "pending": "Da risolvere",
+        "resolved": "Risolto"
+      },
+      "all": "Tutte",
+      "assigned": "Associato",
+      "available": "Disponibile",
+      "canceled": "Annullata",
+      "cancelled": "Cancellato",
+      "completed": "Conclusa",
+      "confirmed": "Programmata",
+      "draft": "Bozza",
+      "inactive": "Invitato",
+      "no_show": "Non eseguita",
+      "outstanding": "In sospeso",
+      "paused": "In pausa",
+      "paymentState": {
+        "draft": "In attesa di pagamento",
+        "open": "In attesa di pagamento",
+        "paid": "Pagato"
+      },
+      "payment_failed": "Pagamento fallito",
+      "pending_payment": "Da pagare",
+      "prepare_kit": "Kit da spedire",
+      "scheduled": "Programmate",
+      "sent": "Inviato",
+      "shipped": "Kit spedito",
+      "to_be_scheduled": "Da programmare",
+      "to_review": "Da revisionare"
+    },
+    "stopCard": {
+      "attachments": {
+        "body": "Puoi allegare immagini o documenti (come tracciato ECG e spirometria). Gli allegati saranno visibili al paziente.",
+        "title": "Allegati",
+        "uploadButton": "Carica allegato"
+      },
+      "pacsFolder": {
+        "link": "Immagini esame"
+      },
+      "studyStatus": {
+        "complete": "completato",
+        "container": "Caricamento: <0> {{status}} </0>",
+        "initialized": "non avviato",
+        "progress": "in corso"
+      },
+      "zeeromed": {
+        "imageUpload": {
+          "link": "Carica immagini sul Pacs"
+        }
+      }
+    },
+    "stopCard_zeeromed_imagesList_title": "Immagini radiografiche",
+    "subscription": {
+      "btn": {
+        "accepted": "Aggiunto",
+        "subscribe": "Conferma email"
+      },
+      "subscribe_info_department": "Purtroppo non ci sono servizi attivi nella tua zona, ma siamo in continua evoluzione. Scrivi il tuo indirizzo e-mail, ti invieremo aggiornamenti sul lancio nella tua città.",
+      "subscribe_success_department": "Abbiamo salvato con successo il tuo indirizzo e-mail. Digita un altro indirizzo per prenotare un esame."
+    },
+    "success": {
+      "assignAssistant": "Assistente associato con successo",
+      "createOrganization": {
+        "description": "Ora puoi inviare immediatamente il link d'invito per accedere alla piattaforma oppure farlo in un secondo momento.",
+        "title": "Utenza creata con successo"
+      },
+      "delete": {
+        "attachment": "L'allegato è stato eliminato con successo."
+      },
+      "departmentCreate": "Reparto creato correttamente.",
+      "departmentUpdate": "Reparto modificato correttamente.",
+      "organizationCreate": "Organizzazione creata con successo",
+      "organizationUpdate": "Modifiche aggiornate con successo",
+      "pathwayCreate": {
+        "button": {
+          "createPathway": "Crea un altro piano di cura",
+          "showDetails": "Vedi piano di cura"
+        },
+        "description": "Il team di Medicilio gestisce direttamente la preparazione e la spedizione del kit al paziente. Non è richiesto alcun intervento da parte tua.",
+        "title": "Piano di cura creato con successo"
+      },
+      "pathwayDraft": {
+        "delete": "Bozza eliminata"
+      },
+      "patientCreate": {
+        "description": "Ora puoi assegnare un percorso al paziente.",
+        "title": "Paziente creato con successo"
+      },
+      "reportSentSuccess": "Report di {{patientName}} creato e inviato correttamente.",
+      "resendPaymentLink": "Link di pagamento inviato con successo.",
+      "sendAdminInvitation": "{{successInvitationsEmails}} di {{totalEmails}} e-mail sono state invitate con successo",
+      "televisit": {
+        "create": "Televisita prenotata con successo",
+        "delete": "Televisita eliminata con successo",
+        "finished": "Televisita terminata.",
+        "update": "Televisita riprogrammata con successo"
+      },
+      "upload": {
+        "attachment": "Allegato caricato con successo."
+      }
+    },
+    "success:createIndependentPractice": "Dottore indipendente creato con successo.",
+    "table": {
+      "externalDoctorPatientList": {
+        "birthDate": "Data di nascita",
+        "patient": "Paziente",
+        "taxCode": "Codice fiscale"
+      }
+    },
+    "tabs": {
+      "admin": {
+        "organizations": {
+          "list": "Organizzazioni"
+        },
+        "protocols": {
+          "list": "Protocolli Globali"
+        }
+      },
+      "alertHistory": "Diario attività",
+      "alerts": "Alert",
+      "details": "Dettagli",
+      "doctorReportList": {
+        "assignedToMe": "Visite assegnate a me",
+        "toBeAssigned": "Visite in attesa di referto"
+      },
+      "history": "Storico",
+      "info": "Info",
+      "measurements": "Misurazioni",
+      "month": "Mese",
+      "organizationDetails": {
+        "department": "Reparti",
+        "info": "Info",
+        "pricing": "Prezzi",
+        "template": "Protocolli",
+        "user": "Utenti"
+      },
+      "past": "Passate",
+      "pathwayTemplates": "Protocolli",
+      "patientDetails": {
+        "patientInfo": "Info paziente"
+      },
+      "reports": "Report",
+      "scheduled": "Programmate",
+      "televisit": "Televisite",
+      "thresholdTemplates": "Protocolli Soglie alert",
+      "thresholds": "Protocollo Soglie alert",
+      "to_be_scheduled": "Da programmare",
+      "transaction": "Pagamenti",
+      "trends": "Trends",
+      "visitDetails": {
+        "pathway": "Piani di cura",
+        "visitActivities": "Attività",
+        "visitHistory": "Storico",
+        "visitInfo": "Info visita"
+      },
+      "week": "Settimana"
+    },
+    "tags": {
+      "shareExternalDoctorCard": {
+        "isGP": "Medico di base"
+      }
+    },
+    "televisit": {
+      "chat": {
+        "placeholder": "Scrivi messaggio",
+        "title": "Chat"
+      }
+    },
+    "test": "Testing",
+    "texts": {
+      "alertThresholds": "soglie alert"
+    },
+    "threshold_templates": {
+      "threshold_templates": "Soglia Alert"
+    },
+    "title": {
+      "AlertResolutionCard": {
+        "header": "Risolvi alert"
+      },
+      "alert": {
+        "blood_pressure": "Pressione fuori norma",
+        "ecg": "Fibrillazione atriale presente",
+        "heart_rate": "Frequenza cardiaca fuori norma",
+        "spo2": "Ossigenazione fuori norma",
+        "temperature": "Temperatura fuori norma",
+        "weight": "Peso fuori norma"
+      },
+      "alertList": {
+        "listWithPatientFilter": "Alert da risolvere di {{name}} ({{patientCount}}/{{totalAlerts}})"
+      },
+      "alertResolution": {
+        "trend": {
+          "blood_pressure": "Trend Pressione",
+          "heart_rate": "Trend Frequenza cardiaca",
+          "spo2": "Trend Ossigenazione",
+          "temperature": "Trend Temperatura",
+          "weight": "Trend Peso"
+        }
+      },
+      "alerts": {
+        "list": "Alert da risolvere ({{count}})"
+      },
+      "assistant": {
+        "list": "La mia Equipe"
+      },
+      "department": {
+        "list": "Reparti"
+      },
+      "drugIntakeCard": "Farmaci",
+      "drugIntakeStatus": {
+        "administered": "Assunto",
+        "notAdministered": "Non assunto"
+      },
+      "ecgCard": "ECG",
+      "emergencyContactCard": {
+        "header": "Contatti di emergenza"
+      },
+      "healthInformationCard": {
+        "header": "Informazioni mediche"
+      },
+      "historyListCard": {
+        "date": "Visita del {{date}}"
+      },
+      "measurements": {
+        "history": "Storico",
+        "list": "Ultime misurazioni"
+      },
+      "mobileAppRedirection": "Un secondo. Verrai reindirizzato all'app a breve...",
+      "noteDeleteModal": "Sei sicuro di volere eliminare la nota?",
+      "noteEditModal": "Modifica nota",
+      "organizationDepartmentList": {
+        "deleteDepartmentModal": "Sei sicuro di volere eliminare il reparto {{departmentName}}?"
+      },
+      "organizationDoctorCard": "Info medico",
+      "organizationInformationCard": "Info organizzazione",
+      "organizationList": {
+        "deleteOrganizationModal": "Sei sicuro di volere eliminare l’organizzazione {{name}}?",
+        "list": "Lista organizzazioni"
+      },
+      "organizationPaymentCard": "Fatturazione",
+      "organizationSettingsCard": "Impostazioni",
+      "organizationUserList": {
+        "deleteModal": "Sei sicuro di volere eliminare l’utente {{email}}?",
+        "deleteOrganizationModal": "Sei sicuro di volere eliminare l’utente {{email}}?"
+      },
+      "pathwayBasicInfoCard": {
+        "header": "Info piano di cura"
+      },
+      "pathwayDeviceInstancesCard": {
+        "header": "Dispositivi"
+      },
+      "pathwayDrugCard": {
+        "header": "Farmaci"
+      },
+      "pathwayExamCard": {
+        "header": "Esami consigliati"
+      },
+      "pathwayList": {
+        "deletePathwayModal": "Sei sicuro di volere eliminare la bozza {{pathwayName}}?"
+      },
+      "pathwayNetworkCard": {
+        "header": "Network"
+      },
+      "pathwayQuestionnaireCard": {
+        "header": "Questionario"
+      },
+      "pathwayShippingCard": {
+        "header": "Spedizione"
+      },
+      "pathwayStatus": {
+        "activatePathwayModal": "Sei sicuro di voler attivare questo piano di cura?",
+        "cancelPathwayModal": "Vuoi cancellare il piano di cura?",
+        "completePathwayModal": "Sei sicuro di voler completare questo piano di cura?",
+        "continuePathwayModal": "Sei sicuro di voler attivare questo piano di cura?",
+        "pausePathwayModal": "Vuoi mettere in pausa il piano di cura?",
+        "paymentFailedPathwayModal": "Stai per cambiare lo stato del piano di cura da \"Attivo\" a \"Pagamento fallito\"."
+      },
+      "pathwayStatusCard": "Stato piano di cura",
+      "pathwayVitalParameterCard": {
+        "header": "Parametri da monitorare"
+      },
+      "patientCreation": {
+        "emergencyContact": "Contatti di emergenza",
+        "healthInformation": "Informazioni mediche",
+        "patientInformation": "Anagrafica paziente"
+      },
+      "patientInformationCard": {
+        "contact": "Contatti",
+        "generalData": "Dati anagrafici",
+        "header": "Info paziente"
+      },
+      "patientList": {
+        "patient": "Pazienti"
+      },
+      "pricingInformationCard": "Prezzi",
+      "questionnaireCard": "Questionari",
+      "reportList": {
+        "deleteReport": "Sei sicuro di volere eliminare questo report di {{patientName}}?"
+      },
+      "reports": {
+        "list": "Report pronti per l’invio ({{count}})"
+      },
+      "settingsCard": "Configurazioni report",
+      "shareExternalDoctor": {
+        "confirmGP": "Questo dottore è il medico di base?",
+        "selectGP": "Seleziona il medico di base"
+      },
+      "televisit": "Televisite",
+      "televisitEntrance": {
+        "active": "Accedi alla televisita",
+        "inactive": "È ancora presto"
+      },
+      "televisitList": {
+        "deleteTelevisit": "Sei sicuro di volere eliminare la televisita del {{date}} con {{name}}?"
+      },
+      "televisitSettingsBox": "Impostazioni",
+      "templateList": {
+        "deleteTemplate": "Sei sicuro di volere eliminare il protocollo {{templateName}}"
+      },
+      "thresholdCard": "Soglie",
+      "trendsLoading": "Stiamo caricando i trends del paziente...",
+      "user": {
+        "list": "Utenti"
+      },
+      "viewThresholdTemplate": "Protocollo Soglie Alert",
+      "warehouseList": {
+        "deleteDeviceModal": "Sei sicuro di voler eliminare il dispositivo?"
+      }
+    },
+    "titles": {
+      "addDevices": "Dispositivi",
+      "completeProfile": "Inserisci i tuoi dati per procedere"
+    },
+    "toast": {
+      "externalDoctor": {
+        "create": {
+          "success": {
+            "description": "Il medico è stato creato con successo!"
+          }
+        }
+      },
+      "prescription": {
+        "create": {
+          "success": {
+            "description": "Prescrizione caricata con successo!"
+          }
+        },
+        "delete": {
+          "success": {
+            "description": "Prescrizione eliminata con successo!"
+          }
+        }
+      }
+    },
+    "tooltips": {
+      "manualMeasurement": "Misurazione manuale",
+      "remeasurement": "Misurazione ripetuta dopo alert rosso",
+      "televisitSecurity": {
+        "description": "La chiamata è crittografata e non viene registrata.",
+        "title": "Crittografia attiva"
+      },
+      "weightThreshold": "<p>Riceverai un alert se la variazione di peso di un paziente supera la soglia più alta tra questi tre valori:</p> <br/>\\n\\n<ul>\\n  <li>- La media delle variazioni delle ultime <strong>7 misurazioni </strong></li>\\n  <li>- La media delle variazioni delle ultime <strong>3 misurazioni</strong></li>\\n  <li>- La <strong>variazione giornaliera</strong></li>\\n</ul>\\n\\n<p>Il sistema calcola tutti e tre i valori e prende quello <strong>più alto</strong> come riferimento.</p>\\n"
+    },
+    "userActivation": {
+      "btn": {
+        "expired": "Richiedi un nuovo link di attivazione",
+        "success": "Login"
+      },
+      "description": {
+        "error": "C'è stato un errore durante l'attivazione del tuo account, usa il tuo indirizzo email per ricevere un nuovo link di attivazione. Se il problema dovesse persistere, contattaci!",
+        "expired": "Questo link di validazione è scaduto!",
+        "resend": "Usa il tuo indirizzo email per ricevere un nuovo link di attivazione",
+        "success": "Attivazione effettuata con successo!"
+      },
+      "toasts": {
+        "alreadyActive": "Il tuo account è già attivo, effettua il login!",
+        "success": {
+          "description": "Ti abbiamo inviato un'email all'indirizzo che ci hai comunicato con le istruzioni su come completare il processo.",
+          "header": "Successo!"
+        }
+      }
+    },
+    "variants": {
+      "compact_name": {
+        "labo_display_compact_variants": "Esame del sangue personalizzato"
+      }
+    },
+    "visitDetails": {
+      "patientCard": {
+        "phone": "N. telefono:"
+      },
+      "uploadStudyImage": {
+        "description": "Carica le immagini relative ad esami precedentemente effettuati."
+      },
+      "uploadStudyImageCard": {
+        "title": "Esami precedenti"
+      }
+    },
+    "visitList": {
+      "futureVisits": {
+        "info": "<0>Elenco visite non definitivo</0> In questa sezione trovi le visite prenotate fino ad ora. Ricordati di controllare l’elenco delle visite prima di iniziare la tua giornata lavorativa."
+      },
+      "noDataFound": {
+        "done": "Non ci sono visite completate.",
+        "emptyItinerary": "Non sono presenti prossimi itinerari",
+        "today": "Non ha visite in programma per oggi.",
+        "upcoming": "Non hai ancora visite in programma per questa data. "
+      }
+    }
+  }
+}
