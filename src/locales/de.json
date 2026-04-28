@@ -1,0 +1,14 @@
+{
+  "lets": {
+    "create": {
+      "aComponent": "das wird ein <component>Component</component>",
+      "aVariable": "kann ich {{variable}} erstellen?"
+    }
+  },
+  "this": {
+    "is": {
+      "aTest": "das ist ein test",
+      "anotherTest": "das ist noch ein test"
+    }
+  }
+}
