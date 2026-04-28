@@ -10,5 +10,12 @@
       "aTest": "das ist ein test",
       "anotherTest": "das ist noch ein test"
     }
+  },
+  "we": {
+    "create": {
+      "more": {
+        "translations": "Das sind noch mehr translations"
+      }
+    }
   }
 }
